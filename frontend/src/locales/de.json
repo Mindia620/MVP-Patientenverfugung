@@ -1,0 +1,257 @@
+{
+  "app": {
+    "name": "Vorsorge Wizard",
+    "tagline": "Ihre Vorsorgedokumente. Einfach. Sicher. Rechtlich strukturiert."
+  },
+  "nav": {
+    "home": "Startseite",
+    "dashboard": "Meine Dokumente",
+    "login": "Anmelden",
+    "register": "Registrieren",
+    "logout": "Abmelden",
+    "privacy": "Datenschutz",
+    "imprint": "Impressum"
+  },
+  "intro": {
+    "headline": "Erstellen Sie in 10 Minuten Ihre rechtlich strukturierten Vorsorgedokumente",
+    "subline": "Kostenlos. Anonym. Ohne Registrierung für den Wizard.",
+    "documents": {
+      "patientenverfuegung": "Patientenverfügung",
+      "vorsorgevollmacht": "Vorsorgevollmacht",
+      "betreuungsverfuegung": "Betreuungsverfügung"
+    },
+    "cta_start": "Jetzt starten",
+    "cta_login": "Ich habe bereits ein Konto",
+    "disclaimer_title": "Rechtlicher Hinweis",
+    "disclaimer_text": "Vorsorge Wizard unterstützt Sie dabei, Ihre persönlichen Wünsche zu dokumentieren. Die erzeugten Dokumente ersetzen keine rechtliche oder medizinische Beratung. Bitte lassen Sie Ihre Dokumente von einem Rechtsanwalt oder Notar überprüfen, wenn Sie rechtliche Sicherheit wünschen.",
+    "privacy_note": "Keine Registrierung nötig • Ihre Daten bleiben privat"
+  },
+  "wizard": {
+    "step_of": "Schritt {{current}} von {{total}}",
+    "back": "Zurück",
+    "continue": "Weiter",
+    "skip": "Überspringen",
+    "optional": "(optional)",
+    "saving": "Wird gespeichert...",
+    "saved": "Gespeichert",
+    "steps": {
+      "1": "Persönliche Angaben",
+      "2": "Vertrauensperson",
+      "3": "Medizinische Wünsche",
+      "4": "Szenarien",
+      "5": "Werte & Wünsche",
+      "6": "Zusammenfassung",
+      "7": "Konto erstellen",
+      "8": "Dokumente"
+    }
+  },
+  "step1": {
+    "title": "Ihre persönlichen Angaben",
+    "subtitle": "Diese Daten werden für die rechtliche Gültigkeit Ihrer Dokumente benötigt.",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "dateOfBirth": "Geburtsdatum",
+    "placeOfBirth": "Geburtsort",
+    "streetAddress": "Straße und Hausnummer",
+    "postalCode": "Postleitzahl",
+    "city": "Ort",
+    "country": "Land",
+    "privacy_note": "Ihre Daten werden nur für Ihre Dokumente verwendet und nicht an Dritte weitergegeben."
+  },
+  "step2": {
+    "title": "Ihre Vertrauensperson",
+    "subtitle": "Diese Person handelt in Ihrem Namen, wenn Sie es nicht mehr können.",
+    "tooltip_trusted": "Diese Person erhält eine Vorsorgevollmacht und kann in Ihrem Namen entscheiden, wenn Sie es nicht mehr können.",
+    "tooltip_substitute": "Diese Person übernimmt, falls Ihre erste Vertrauensperson nicht verfügbar oder verhindert ist.",
+    "fullName": "Vollständiger Name",
+    "relationship": "Verhältnis zu Ihnen",
+    "relationships": {
+      "spouse": "Ehepartner/in",
+      "partner": "Lebenspartner/in",
+      "child": "Kind",
+      "sibling": "Geschwister",
+      "friend": "Freund/in",
+      "other": "Sonstiges"
+    },
+    "streetAddress": "Straße und Hausnummer",
+    "postalCode": "Postleitzahl",
+    "city": "Ort",
+    "phone": "Telefonnummer",
+    "email": "E-Mail-Adresse",
+    "add_substitute": "Ersatzperson hinzufügen",
+    "substitute_title": "Ersatzbevollmächtigte/r"
+  },
+  "step3": {
+    "title": "Medizinische Behandlungswünsche",
+    "subtitle": "Legen Sie Ihre Wünsche für bestimmte medizinische Maßnahmen fest.",
+    "choice_yes": "Ja, ich wünsche diese Maßnahme",
+    "choice_no": "Nein, ich lehne diese Maßnahme ab",
+    "choice_doctor": "Meinem Arzt / meiner Vertrauensperson überlassen",
+    "learn_more": "Mehr erfahren",
+    "treatments": {
+      "cpr": {
+        "title": "Wiederbelebung (CPR)",
+        "tooltip": "Maßnahmen zum Wiederanlaufen des Herzens durch Herzdruckmassage oder elektrische Schocks (Defibrillation). Kann Rippen brechen und ist körperlich sehr belastend."
+      },
+      "ventilation": {
+        "title": "Maschinelle Beatmung",
+        "tooltip": "Eine Maschine übernimmt die Atemfunktion durch einen Schlauch in der Luftröhre (Intubation) oder eine Atemmaske. Kann langfristig angewendet werden."
+      },
+      "artificialNutrition": {
+        "title": "Künstliche Ernährung",
+        "tooltip": "Zufuhr von Nährstoffen über eine Magensonde (durch Nase oder Bauchdecke) oder über eine Vene (intravenöse Ernährung), wenn normales Essen nicht mehr möglich ist."
+      },
+      "dialysis": {
+        "title": "Dialyse (Blutwäsche)",
+        "tooltip": "Maschinelle Reinigung des Blutes bei Nierenversagen. Erfordert regelmäßige stundenlange Behandlungen, oft mehrmals pro Woche."
+      },
+      "antibiotics": {
+        "title": "Antibiotika und lebenserhaltende Medikamente",
+        "tooltip": "Medikamente zur Bekämpfung von Infektionen oder zur Aufrechterhaltung von Körperfunktionen, die das Leben verlängern, aber nicht heilen können."
+      },
+      "painManagement": {
+        "title": "Schmerzlinderung und Palliativversorgung",
+        "tooltip": "Medikamente und Maßnahmen zur Linderung von Schmerzen und Leiden, auch wenn sie das Leben möglicherweise verkürzen. Dies entspricht dem Prinzip der indirekten Sterbehilfe, die in Deutschland erlaubt ist."
+      }
+    }
+  },
+  "step4": {
+    "title": "Situationen und Szenarien",
+    "subtitle": "Legen Sie Ihre Wünsche für verschiedene medizinische Situationen fest.",
+    "choice_life_sustaining": "Lebenserhaltende Maßnahmen einleiten",
+    "choice_palliative_only": "Nur Palliativversorgung — keine lebenserhaltenden Maßnahmen",
+    "choice_trusted_person": "Entscheidung meiner Vertrauensperson überlassen",
+    "additional_notes": "Ergänzende Hinweise (optional)",
+    "scenarios": {
+      "terminalIllness": {
+        "title": "Unheilbare, zum Tode führende Erkrankung",
+        "description": "Wenn ich an einer unheilbaren Erkrankung leide, die in absehbarer Zeit zum Tod führen wird, und keine realistische Aussicht auf Verbesserung meines Zustandes besteht."
+      },
+      "irreversibleUnconscious": {
+        "title": "Dauerhaftes Koma / Irreversibles Bewusstsein",
+        "description": "Wenn ich infolge einer Gehirnschädigung dauerhaft bewusstlos bin oder meine Gehirnfunktionen dauerhaft so stark beeinträchtigt sind, dass keine Aussicht auf Wiedererlangung des Bewusstseins besteht."
+      },
+      "severeDementia": {
+        "title": "Schwere Demenz",
+        "description": "Wenn ich an einer weit fortgeschrittenen Demenzerkrankung leide und meine Persönlichkeit und mein Gedächtnis unwiederbringlich verloren sind."
+      }
+    }
+  },
+  "step5": {
+    "title": "Persönliche Werte und Wünsche",
+    "subtitle": "Teilen Sie Ihre persönlichen Werte mit — diese werden in Ihre Dokumente aufgenommen.",
+    "valuesStatement": "Meine persönlichen Werte und Lebensvorstellungen",
+    "valuesPlaceholder": "Was ist Ihnen im Leben am wichtigsten? Was macht für Sie Lebensqualität aus? (z.B. Kommunikationsfähigkeit, Unabhängigkeit, Freiheit von Schmerzen...)",
+    "spiritualWishes": "Religiöse und spirituelle Wünsche",
+    "spiritualPlaceholder": "Haben Sie religiöse oder spirituelle Wünsche für den Sterbeprozess oder für die Pflege?",
+    "specificExclusions": "Bestimmte abgelehnte Maßnahmen",
+    "exclusionsPlaceholder": "Gibt es bestimmte Behandlungen oder Maßnahmen, die Sie auf keinen Fall wünschen?",
+    "organDonation": "Organspende",
+    "organDonation_yes": "Ich bin grundsätzlich zur Organspende bereit",
+    "organDonation_no": "Ich lehne eine Organspende ab",
+    "organDonation_registered": "Meine Entscheidung ist bereits separat geregelt (Organspendeausweis)",
+    "organ_note": "Einen Organspendeausweis erhalten Sie kostenlos unter organspende-info.de",
+    "chars_remaining": "{{count}} Zeichen verbleibend"
+  },
+  "step6": {
+    "title": "Zusammenfassung",
+    "subtitle": "Überprüfen Sie Ihre Angaben vor der Dokumentenerstellung.",
+    "edit": "Bearbeiten",
+    "section_personal": "Persönliche Angaben",
+    "section_trusted": "Vertrauensperson",
+    "section_medical": "Medizinische Wünsche",
+    "section_scenarios": "Szenarien",
+    "section_values": "Werte & Wünsche",
+    "not_provided": "Nicht angegeben",
+    "disclaimer_label": "Ich habe den rechtlichen Hinweis gelesen und verstanden. Mir ist bewusst, dass die erzeugten Dokumente keine professionelle Rechtsberatung ersetzen.",
+    "documents_to_generate": "Diese Dokumente werden erstellt:",
+    "ready_to_generate": "Alles bereit? Weiter zur Kontoerstellung."
+  },
+  "step7": {
+    "title": "Konto erstellen & Dokumente speichern",
+    "subtitle": "Erstellen Sie ein kostenloses Konto, um Ihre Dokumente zu speichern und später wieder herunterladen zu können.",
+    "benefits": {
+      "save": "Dokumente dauerhaft speichern",
+      "edit": "Jederzeit bearbeiten und neue Version erstellen",
+      "access": "Von überall herunterladen"
+    },
+    "email": "E-Mail-Adresse",
+    "password": "Passwort",
+    "password_confirm": "Passwort wiederholen",
+    "consent": "Ich stimme der Datenschutzerklärung zu und bin mit der Verarbeitung meiner Daten zum Zweck der Dokumentenerstellung einverstanden.",
+    "cta_create": "Konto erstellen & Dokumente generieren",
+    "cta_anonymous": "Ohne Konto herunterladen (einmalig)",
+    "already_have_account": "Ich habe bereits ein Konto",
+    "login": "Anmelden",
+    "password_hint": "Mindestens 8 Zeichen"
+  },
+  "step8": {
+    "title": "Ihre Dokumente sind bereit!",
+    "subtitle": "Laden Sie Ihre Vorsorgedokumente herunter.",
+    "generating": "Dokumente werden erstellt...",
+    "download": "PDF herunterladen",
+    "preview": "Vorschau",
+    "next_steps_title": "Nächste Schritte",
+    "next_steps": [
+      "Dokument ausdrucken",
+      "Eigenhändig unterschreiben und datieren",
+      "Kopien an Ihre Vertrauensperson aushändigen",
+      "Original sicher aufbewahren (z.B. Notariatstresor, Betreuungsgericht)",
+      "Ihren Arzt informieren"
+    ],
+    "documents": {
+      "PATIENTENVERFUEGUNG": "Patientenverfügung",
+      "VORSORGEVOLLMACHT": "Vorsorgevollmacht",
+      "BETREUUNGSVERFUEGUNG": "Betreuungsverfügung"
+    }
+  },
+  "auth": {
+    "login_title": "Anmelden",
+    "register_title": "Konto erstellen",
+    "email": "E-Mail-Adresse",
+    "password": "Passwort",
+    "login_cta": "Anmelden",
+    "register_cta": "Konto erstellen",
+    "no_account": "Noch kein Konto?",
+    "have_account": "Bereits ein Konto?",
+    "forgot_password": "Passwort vergessen?",
+    "errors": {
+      "invalid_credentials": "Ungültige E-Mail oder falsches Passwort.",
+      "email_taken": "Diese E-Mail ist bereits registriert.",
+      "server_error": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+    }
+  },
+  "dashboard": {
+    "title": "Meine Vorsorgedokumente",
+    "welcome": "Willkommen, {{name}}",
+    "no_documents": "Sie haben noch keine Dokumente erstellt.",
+    "create_first": "Erste Dokumente erstellen",
+    "create_new": "Neue Version erstellen",
+    "package_label": "Dokumentenpaket",
+    "created_at": "Erstellt am",
+    "download_all": "Alle herunterladen",
+    "status": {
+      "COMPLETED": "Fertig",
+      "PROCESSING": "Wird erstellt...",
+      "FAILED": "Fehler"
+    },
+    "account_section": "Konto",
+    "export_data": "Meine Daten exportieren",
+    "delete_account": "Konto löschen",
+    "delete_confirm": "Sind Sie sicher? Alle Ihre Dokumente und Daten werden unwiderruflich gelöscht.",
+    "delete_password_prompt": "Bitte geben Sie Ihr Passwort ein, um das Konto zu löschen:"
+  },
+  "errors": {
+    "required": "Dieses Feld ist erforderlich",
+    "invalid_email": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+    "min_age": "Sie müssen mindestens 18 Jahre alt sein",
+    "invalid_postal": "Bitte geben Sie eine gültige Postleitzahl ein",
+    "passwords_match": "Die Passwörter stimmen nicht überein",
+    "min_password": "Das Passwort muss mindestens 8 Zeichen lang sein",
+    "network": "Netzwerkfehler. Bitte überprüfen Sie Ihre Internetverbindung."
+  },
+  "legal": {
+    "privacy_title": "Datenschutzerklärung",
+    "imprint_title": "Impressum"
+  }
+}

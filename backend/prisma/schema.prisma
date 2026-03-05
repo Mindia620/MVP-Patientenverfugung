@@ -1,0 +1,122 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model User {
+  id           String    @id @default(cuid())
+  email        String    @unique
+  passwordHash String
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+  deletedAt    DateTime?
+
+  draft     WizardDraft?
+  packages  DocumentPackage[]
+  auditLogs AuditLog[]
+
+  @@index([email])
+}
+
+model WizardDraft {
+  id     String @id @default(cuid())
+  userId String @unique
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  wizardVersion  String @default("1.0")
+  personalInfo   Json?
+  trustedPerson  Json?
+  medicalPrefs   Json?
+  scenarios      Json?
+  personalValues Json?
+  currentStep    Int    @default(1)
+
+  completedAt DateTime?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+}
+
+model DocumentPackage {
+  id      String @id @default(cuid())
+  userId  String
+  user    User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  wizardVersion   String
+  answersSnapshot Json
+  label           String?
+  status          PackageStatus @default(PROCESSING)
+
+  documents GeneratedDocument[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([userId])
+}
+
+enum PackageStatus {
+  PROCESSING
+  COMPLETED
+  FAILED
+}
+
+model GeneratedDocument {
+  id        String          @id @default(cuid())
+  packageId String
+  package   DocumentPackage @relation(fields: [packageId], references: [id], onDelete: Cascade)
+
+  type       DocumentType
+  status     DocumentStatus @default(PENDING)
+  pdfData    Bytes?
+  fileSize   Int?
+  pageCount  Int?
+  storageKey String?
+
+  generatedAt DateTime?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  @@index([packageId])
+}
+
+enum DocumentType {
+  PATIENTENVERFUEGUNG
+  VORSORGEVOLLMACHT
+  BETREUUNGSVERFUEGUNG
+}
+
+enum DocumentStatus {
+  PENDING
+  GENERATED
+  FAILED
+}
+
+model AuditLog {
+  id         String  @id @default(cuid())
+  userId     String?
+  user       User?   @relation(fields: [userId], references: [id], onDelete: SetNull)
+  action     AuditAction
+  entityType String?
+  entityId   String?
+  metadata   Json?
+  ipHash     String?
+
+  createdAt DateTime @default(now())
+
+  @@index([userId])
+  @@index([createdAt])
+}
+
+enum AuditAction {
+  USER_REGISTER
+  USER_LOGIN
+  USER_LOGOUT
+  USER_DELETE
+  DRAFT_SAVE
+  DOCUMENT_GENERATE
+  DOCUMENT_DOWNLOAD
+  DATA_EXPORT
+}

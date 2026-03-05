@@ -1,8 +1,48 @@
+# Dependencies
 node_modules/
+**/node_modules/
+
+# Build outputs
 dist/
 build/
+**/dist/
+**/build/
+
+# Environment files (NEVER commit these)
 .env
+.env.local
+.env.*.local
+**/.env
+**/.env.local
+
+# Logs
+*.log
+npm-debug.log*
+logs/
+
+# TypeScript
+*.tsbuildinfo
+**/node_modules/.tmp/
+
+# Database
+*.db
+*.sqlite
+
+# OS
 .DS_Store
-coverage/
-.turbo/
+Thumbs.db
+
+# IDE
+.idea/
 .vscode/
+*.swp
+*.swo
+
+# Playwright
+/playwright/.cache/
+
+# Prisma
+backend/prisma/dev.db
+
+# PDF output files (generated at runtime)
+*.pdf

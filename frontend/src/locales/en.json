@@ -1,0 +1,257 @@
+{
+  "app": {
+    "name": "Vorsorge Wizard",
+    "tagline": "Your advance directives. Simple. Secure. Legally structured."
+  },
+  "nav": {
+    "home": "Home",
+    "dashboard": "My Documents",
+    "login": "Log In",
+    "register": "Register",
+    "logout": "Log Out",
+    "privacy": "Privacy",
+    "imprint": "Legal Notice"
+  },
+  "intro": {
+    "headline": "Create your legally structured advance directives in 10 minutes",
+    "subline": "Free. Anonymous. No registration required for the wizard.",
+    "documents": {
+      "patientenverfuegung": "Living Will (Patientenverfügung)",
+      "vorsorgevollmacht": "Power of Attorney (Vorsorgevollmacht)",
+      "betreuungsverfuegung": "Care Directive (Betreuungsverfügung)"
+    },
+    "cta_start": "Start Now",
+    "cta_login": "I already have an account",
+    "disclaimer_title": "Legal Notice",
+    "disclaimer_text": "Vorsorge Wizard helps you document your personal wishes. The generated documents do not constitute legal or medical advice. Please have your documents reviewed by a lawyer or notary if you require legal certainty.",
+    "privacy_note": "No registration needed • Your data stays private"
+  },
+  "wizard": {
+    "step_of": "Step {{current}} of {{total}}",
+    "back": "Back",
+    "continue": "Continue",
+    "skip": "Skip",
+    "optional": "(optional)",
+    "saving": "Saving...",
+    "saved": "Saved",
+    "steps": {
+      "1": "Personal Info",
+      "2": "Trusted Person",
+      "3": "Medical Wishes",
+      "4": "Scenarios",
+      "5": "Values",
+      "6": "Review",
+      "7": "Create Account",
+      "8": "Documents"
+    }
+  },
+  "step1": {
+    "title": "Your Personal Information",
+    "subtitle": "This information is required for the legal validity of your documents.",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "dateOfBirth": "Date of Birth",
+    "placeOfBirth": "Place of Birth",
+    "streetAddress": "Street Address",
+    "postalCode": "Postal Code",
+    "city": "City",
+    "country": "Country",
+    "privacy_note": "Your data is used only for your documents and is never shared with third parties."
+  },
+  "step2": {
+    "title": "Your Trusted Person",
+    "subtitle": "This person acts on your behalf when you can no longer do so.",
+    "tooltip_trusted": "This person receives power of attorney and can make decisions on your behalf when you are no longer able to.",
+    "tooltip_substitute": "This person takes over if your primary trusted person is unavailable or unable to act.",
+    "fullName": "Full Name",
+    "relationship": "Relationship to You",
+    "relationships": {
+      "spouse": "Spouse",
+      "partner": "Life Partner",
+      "child": "Child",
+      "sibling": "Sibling",
+      "friend": "Friend",
+      "other": "Other"
+    },
+    "streetAddress": "Street Address",
+    "postalCode": "Postal Code",
+    "city": "City",
+    "phone": "Phone Number",
+    "email": "Email Address",
+    "add_substitute": "Add Substitute Person",
+    "substitute_title": "Substitute Representative"
+  },
+  "step3": {
+    "title": "Medical Treatment Preferences",
+    "subtitle": "Define your wishes for specific medical interventions.",
+    "choice_yes": "Yes, I wish this measure",
+    "choice_no": "No, I decline this measure",
+    "choice_doctor": "Leave to my doctor / trusted person",
+    "learn_more": "Learn more",
+    "treatments": {
+      "cpr": {
+        "title": "Cardiopulmonary Resuscitation (CPR)",
+        "tooltip": "Measures to restart the heart through chest compressions or electric shocks (defibrillation). Can break ribs and is physically very stressful."
+      },
+      "ventilation": {
+        "title": "Mechanical Ventilation",
+        "tooltip": "A machine takes over breathing through a tube in the windpipe (intubation) or a breathing mask. Can be applied long-term."
+      },
+      "artificialNutrition": {
+        "title": "Artificial Nutrition",
+        "tooltip": "Supply of nutrients via a stomach tube (through nose or abdominal wall) or via a vein (intravenous nutrition), when normal eating is no longer possible."
+      },
+      "dialysis": {
+        "title": "Dialysis",
+        "tooltip": "Machine cleaning of the blood when kidneys fail. Requires regular hours-long treatments, often several times per week."
+      },
+      "antibiotics": {
+        "title": "Antibiotics and Life-Sustaining Medications",
+        "tooltip": "Medications to fight infections or maintain bodily functions that can extend life but not cure the underlying condition."
+      },
+      "painManagement": {
+        "title": "Pain Relief and Palliative Care",
+        "tooltip": "Medications and measures to relieve pain and suffering, even if they may shorten life. This corresponds to indirect assisted dying, which is permitted in Germany."
+      }
+    }
+  },
+  "step4": {
+    "title": "Life Situations and Scenarios",
+    "subtitle": "Define your wishes for different medical situations.",
+    "choice_life_sustaining": "Initiate life-sustaining measures",
+    "choice_palliative_only": "Palliative care only — no life-sustaining measures",
+    "choice_trusted_person": "Leave decision to my trusted person",
+    "additional_notes": "Additional notes (optional)",
+    "scenarios": {
+      "terminalIllness": {
+        "title": "Terminal Illness",
+        "description": "If I suffer from an incurable disease that will lead to death in the foreseeable future, with no realistic prospect of improvement."
+      },
+      "irreversibleUnconscious": {
+        "title": "Irreversible Unconsciousness / Permanent Coma",
+        "description": "If I am permanently unconscious due to brain damage or my brain functions are permanently so severely impaired that there is no prospect of regaining consciousness."
+      },
+      "severeDementia": {
+        "title": "Severe Dementia",
+        "description": "If I suffer from advanced dementia and my personality and memory are irretrievably lost."
+      }
+    }
+  },
+  "step5": {
+    "title": "Personal Values and Wishes",
+    "subtitle": "Share your personal values — these will be incorporated into your documents.",
+    "valuesStatement": "My Personal Values and Life Views",
+    "valuesPlaceholder": "What matters most to you in life? What constitutes quality of life for you? (e.g., ability to communicate, independence, freedom from pain...)",
+    "spiritualWishes": "Religious and Spiritual Wishes",
+    "spiritualPlaceholder": "Do you have religious or spiritual wishes for the dying process or for your care?",
+    "specificExclusions": "Specifically Rejected Measures",
+    "exclusionsPlaceholder": "Are there specific treatments or measures that you absolutely do not want?",
+    "organDonation": "Organ Donation",
+    "organDonation_yes": "I am generally willing to donate organs",
+    "organDonation_no": "I decline organ donation",
+    "organDonation_registered": "My decision is already separately registered (organ donor card)",
+    "organ_note": "You can get a free organ donor card at organspende-info.de",
+    "chars_remaining": "{{count}} characters remaining"
+  },
+  "step6": {
+    "title": "Summary & Review",
+    "subtitle": "Review your information before generating documents.",
+    "edit": "Edit",
+    "section_personal": "Personal Information",
+    "section_trusted": "Trusted Person",
+    "section_medical": "Medical Preferences",
+    "section_scenarios": "Scenarios",
+    "section_values": "Values & Wishes",
+    "not_provided": "Not provided",
+    "disclaimer_label": "I have read and understood the legal notice. I am aware that the generated documents are not a substitute for professional legal advice.",
+    "documents_to_generate": "These documents will be created:",
+    "ready_to_generate": "All ready? Continue to account creation."
+  },
+  "step7": {
+    "title": "Create Account & Save Documents",
+    "subtitle": "Create a free account to save your documents and download them later.",
+    "benefits": {
+      "save": "Save documents permanently",
+      "edit": "Edit anytime and create new versions",
+      "access": "Download from anywhere"
+    },
+    "email": "Email Address",
+    "password": "Password",
+    "password_confirm": "Confirm Password",
+    "consent": "I agree to the Privacy Policy and consent to the processing of my data for the purpose of document creation.",
+    "cta_create": "Create Account & Generate Documents",
+    "cta_anonymous": "Download without account (one-time)",
+    "already_have_account": "I already have an account",
+    "login": "Log In",
+    "password_hint": "At least 8 characters"
+  },
+  "step8": {
+    "title": "Your Documents Are Ready!",
+    "subtitle": "Download your advance directive documents.",
+    "generating": "Generating documents...",
+    "download": "Download PDF",
+    "preview": "Preview",
+    "next_steps_title": "Next Steps",
+    "next_steps": [
+      "Print the document",
+      "Sign and date by hand",
+      "Give copies to your trusted person",
+      "Store the original safely (e.g., notary safe, guardianship court)",
+      "Inform your doctor"
+    ],
+    "documents": {
+      "PATIENTENVERFUEGUNG": "Living Will",
+      "VORSORGEVOLLMACHT": "Power of Attorney",
+      "BETREUUNGSVERFUEGUNG": "Care Directive"
+    }
+  },
+  "auth": {
+    "login_title": "Log In",
+    "register_title": "Create Account",
+    "email": "Email Address",
+    "password": "Password",
+    "login_cta": "Log In",
+    "register_cta": "Create Account",
+    "no_account": "Don't have an account?",
+    "have_account": "Already have an account?",
+    "forgot_password": "Forgot password?",
+    "errors": {
+      "invalid_credentials": "Invalid email or password.",
+      "email_taken": "This email is already registered.",
+      "server_error": "An error occurred. Please try again."
+    }
+  },
+  "dashboard": {
+    "title": "My Advance Documents",
+    "welcome": "Welcome, {{name}}",
+    "no_documents": "You haven't created any documents yet.",
+    "create_first": "Create First Documents",
+    "create_new": "Create New Version",
+    "package_label": "Document Package",
+    "created_at": "Created on",
+    "download_all": "Download All",
+    "status": {
+      "COMPLETED": "Ready",
+      "PROCESSING": "Generating...",
+      "FAILED": "Error"
+    },
+    "account_section": "Account",
+    "export_data": "Export My Data",
+    "delete_account": "Delete Account",
+    "delete_confirm": "Are you sure? All your documents and data will be permanently deleted.",
+    "delete_password_prompt": "Please enter your password to delete the account:"
+  },
+  "errors": {
+    "required": "This field is required",
+    "invalid_email": "Please enter a valid email address",
+    "min_age": "You must be at least 18 years old",
+    "invalid_postal": "Please enter a valid postal code",
+    "passwords_match": "Passwords do not match",
+    "min_password": "Password must be at least 8 characters",
+    "network": "Network error. Please check your internet connection."
+  },
+  "legal": {
+    "privacy_title": "Privacy Policy",
+    "imprint_title": "Legal Notice"
+  }
+}

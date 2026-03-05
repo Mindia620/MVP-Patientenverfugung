@@ -1,0 +1,57 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: vorsorge_postgres
+    environment:
+      POSTGRES_DB: vorsorge_wizard
+      POSTGRES_USER: vorsorge
+      POSTGRES_PASSWORD: vorsorge_dev
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U vorsorge -d vorsorge_wizard"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: ../backend
+      dockerfile: ../docker/Dockerfile.backend
+    container_name: vorsorge_backend
+    environment:
+      DATABASE_URL: "postgresql://vorsorge:vorsorge_dev@postgres:5432/vorsorge_wizard"
+      JWT_SECRET: "docker-dev-secret-change-in-production-please"
+      JWT_EXPIRES_IN: "7d"
+      PORT: "3001"
+      NODE_ENV: "development"
+      FRONTEND_URL: "http://localhost:5173"
+    ports:
+      - "3001:3001"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ../backend/src:/app/src
+      - /root/.cache/ms-playwright:/root/.cache/ms-playwright
+
+  frontend:
+    build:
+      context: ../frontend
+      dockerfile: ../docker/Dockerfile.frontend
+    container_name: vorsorge_frontend
+    environment:
+      VITE_API_URL: "http://localhost:3001"
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+    volumes:
+      - ../frontend/src:/app/src
+
+volumes:
+  postgres_data:
