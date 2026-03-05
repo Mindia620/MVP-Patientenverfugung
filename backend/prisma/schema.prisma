@@ -1,0 +1,56 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String   @id @default(uuid())
+  email        String   @unique
+  passwordHash String
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  documentPackages DocumentPackage[]
+}
+
+model Answers {
+  id        String   @id @default(uuid())
+  data      Json
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  documentPackages DocumentPackage[]
+}
+
+model DocumentPackage {
+  id            String   @id @default(uuid())
+  userId        String
+  wizardVersion String
+  answersId     String
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  user               User                @relation(fields: [userId], references: [id], onDelete: Cascade)
+  answers            Answers             @relation(fields: [answersId], references: [id], onDelete: Cascade)
+  generatedDocuments GeneratedDocument[]
+
+  @@index([userId])
+  @@index([createdAt])
+}
+
+model GeneratedDocument {
+  id                String   @id @default(uuid())
+  documentPackageId String
+  documentType      String
+  content           Bytes?
+  createdAt         DateTime @default(now())
+
+  documentPackage DocumentPackage @relation(fields: [documentPackageId], references: [id], onDelete: Cascade)
+
+  @@unique([documentPackageId, documentType])
+  @@index([documentPackageId])
+}

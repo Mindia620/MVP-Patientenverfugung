@@ -2,7 +2,11 @@ node_modules/
 dist/
 build/
 .env
+.env.local
+*.log
 .DS_Store
 coverage/
 .turbo/
 .vscode/
+backend/.env
+frontend/dist/

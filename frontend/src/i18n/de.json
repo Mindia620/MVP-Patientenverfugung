@@ -1,0 +1,105 @@
+{
+  "common": {
+    "back": "Zurück",
+    "next": "Weiter",
+    "save": "Speichern",
+    "start": "Jetzt starten",
+    "optional": "Optional",
+    "language": "Sprache"
+  },
+  "intro": {
+    "title": "Vorsorge Wizard",
+    "subtitle": "Ihre Vorsorgedokumente einfach erstellen",
+    "patientenverfuegung": "Die Patientenverfügung legt Ihre Wünsche für medizinische Behandlungen fest, wenn Sie sich nicht mehr äußern können.",
+    "vorsorgevollmacht": "Die Vorsorgevollmacht bevollmächtigt eine Person Ihres Vertrauens, in Ihrem Namen zu entscheiden.",
+    "betreuungsverfuegung": "Die Betreuungsverfügung gibt Anweisungen für einen eventuell bestellten rechtlichen Betreuer.",
+    "disclaimer": "Hinweis: Vorsorge Wizard ist kein Rechtsberatungsdienst. Die erstellten Dokumente basieren auf Ihren Angaben und Standardformulierungen. Für eine individuelle rechtliche Prüfung empfehlen wir die Konsultation eines Notars oder Rechtsanwalts.",
+    "timeEstimate": "Geschätzte Dauer: ca. 10–15 Minuten"
+  },
+  "wizard": {
+    "step1": {
+      "title": "Persönliche Angaben",
+      "fullName": "Vollständiger Name",
+      "dateOfBirth": "Geburtsdatum",
+      "placeOfBirth": "Geburtsort",
+      "street": "Straße und Hausnummer",
+      "postalCode": "Postleitzahl",
+      "city": "Stadt"
+    },
+    "step2": {
+      "title": "Vertrauensperson",
+      "description": "Diese Person wird bevollmächtigt, in Ihrem Namen zu handeln, wenn Sie es nicht können.",
+      "fullName": "Vollständiger Name",
+      "relationship": "Beziehung (z.B. Ehepartner, Kind)",
+      "phone": "Telefon",
+      "email": "E-Mail",
+      "address": "Adresse",
+      "alternatePerson": "Ersatzperson angeben?",
+      "alternatePersonLabel": "Ersatzperson (Stellvertreter)"
+    },
+    "step3": {
+      "title": "Medizinische Behandlungswünsche",
+      "description": "Wie möchten Sie in folgenden Situationen behandelt werden?",
+      "yes": "Ja (wünschen)",
+      "no": "Nein (ablehnen)",
+      "situationDependent": "Situation abhängig",
+      "cpr": "Wiederbelebung",
+      "cprTooltip": "Herz-Lungen-Wiederbelebung bei Herzstillstand",
+      "ventilation": "Beatmung",
+      "ventilationTooltip": "Künstliche Beatmung bei Atemversagen",
+      "artificialNutrition": "Künstliche Ernährung",
+      "artificialNutritionTooltip": "Sondenernährung oder Infusion",
+      "dialysis": "Dialyse",
+      "dialysisTooltip": "Blutwäsche bei Nierenversagen",
+      "antibiotics": "Antibiotika",
+      "antibioticsTooltip": "Medikamente gegen bakterielle Infektionen",
+      "painManagement": "Schmerztherapie",
+      "painManagementTooltip": "Linderung von Schmerzen, auch mit Opioiden"
+    },
+    "step4": {
+      "title": "Situationsszenarien",
+      "description": "In welchen Situationen soll Ihre Verfügung gelten?",
+      "samePreferences": "Gleiche Präferenzen wie oben",
+      "differentPreferences": "Andere Präferenzen",
+      "terminalIllness": "Unheilbare Krankheit",
+      "terminalIllnessDesc": "Unaufhaltsam zum Tod führend",
+      "irreversibleUnconsciousness": "Irreversibler Bewusstseinsverlust",
+      "irreversibleUnconsciousnessDesc": "Keine Aussicht auf Wiedererlangung des Bewusstseins",
+      "severeDementia": "Schwere Demenz",
+      "severeDementiaDesc": "Fortgeschrittene Demenz, keine Kommunikation möglich"
+    },
+    "step5": {
+      "title": "Zusätzliche Wünsche und Werte",
+      "description": "Optional: Haben Sie weitere Wünsche?",
+      "placeholder": "z.B. religiöse Überzeugungen, Wünsche zum Sterbeort, Abschied von Angehörigen..."
+    },
+    "step6": {
+      "title": "Zusammenfassung",
+      "description": "Bitte überprüfen Sie Ihre Angaben.",
+      "edit": "Bearbeiten",
+      "continueToSave": "Weiter zur Speicherung"
+    },
+    "step7": {
+      "title": "Konto erstellen",
+      "description": "Ihre Angaben werden nur gespeichert, wenn Sie ein Konto erstellen.",
+      "createAccount": "Konto erstellen",
+      "alreadyRegistered": "Bereits registriert? Anmelden",
+      "email": "E-Mail",
+      "password": "Passwort",
+      "confirmPassword": "Passwort bestätigen",
+      "login": "Anmelden"
+    },
+    "step8": {
+      "title": "Dokumente herunterladen",
+      "description": "Ihre Dokumente wurden erstellt.",
+      "downloadAll": "Alle herunterladen",
+      "patientenverfuegung": "Patientenverfügung",
+      "vorsorgevollmacht": "Vorsorgevollmacht",
+      "betreuungsverfuegung": "Betreuungsverfügung",
+      "printHint": "Drucken Sie die Dokumente aus und bewahren Sie sie an einem sicheren Ort. Eine notarielle Beglaubigung der Vorsorgevollmacht wird in vielen Fällen empfohlen."
+    }
+  },
+  "progress": {
+    "step": "Schritt {{current}} von {{total}}"
+  }
+}

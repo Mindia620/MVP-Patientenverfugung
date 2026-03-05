@@ -1,0 +1,105 @@
+{
+  "common": {
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "start": "Start now",
+    "optional": "Optional",
+    "language": "Language"
+  },
+  "intro": {
+    "title": "Vorsorge Wizard",
+    "subtitle": "Create your advance directive documents easily",
+    "patientenverfuegung": "The advance directive (Patientenverfügung) specifies your wishes for medical treatment when you can no longer speak for yourself.",
+    "vorsorgevollmacht": "The power of attorney (Vorsorgevollmacht) authorizes a trusted person to make decisions on your behalf.",
+    "betreuungsverfuegung": "The guardianship directive (Betreuungsverfügung) gives instructions for a court-appointed guardian.",
+    "disclaimer": "Note: Vorsorge Wizard is not a legal advice service. Generated documents are based on your inputs and standard formulations. For individual legal review, we recommend consulting a notary or lawyer.",
+    "timeEstimate": "Estimated time: approx. 10–15 minutes"
+  },
+  "wizard": {
+    "step1": {
+      "title": "Personal Information",
+      "fullName": "Full name",
+      "dateOfBirth": "Date of birth",
+      "placeOfBirth": "Place of birth",
+      "street": "Street and number",
+      "postalCode": "Postal code",
+      "city": "City"
+    },
+    "step2": {
+      "title": "Trusted Person",
+      "description": "This person will be authorized to act on your behalf when you cannot.",
+      "fullName": "Full name",
+      "relationship": "Relationship (e.g. spouse, child)",
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address",
+      "alternatePerson": "Add alternate person?",
+      "alternatePersonLabel": "Alternate person (substitute)"
+    },
+    "step3": {
+      "title": "Medical Treatment Preferences",
+      "description": "How would you like to be treated in the following situations?",
+      "yes": "Yes (desired)",
+      "no": "No (declined)",
+      "situationDependent": "Situation dependent",
+      "cpr": "CPR",
+      "cprTooltip": "Cardiopulmonary resuscitation in case of cardiac arrest",
+      "ventilation": "Ventilation",
+      "ventilationTooltip": "Artificial ventilation in case of respiratory failure",
+      "artificialNutrition": "Artificial nutrition",
+      "artificialNutritionTooltip": "Tube feeding or IV nutrition",
+      "dialysis": "Dialysis",
+      "dialysisTooltip": "Blood filtration in case of kidney failure",
+      "antibiotics": "Antibiotics",
+      "antibioticsTooltip": "Medication for bacterial infections",
+      "painManagement": "Pain management",
+      "painManagementTooltip": "Pain relief, including opioids"
+    },
+    "step4": {
+      "title": "Situational Scenarios",
+      "description": "In which situations should your directive apply?",
+      "samePreferences": "Same preferences as above",
+      "differentPreferences": "Different preferences",
+      "terminalIllness": "Terminal illness",
+      "terminalIllnessDesc": "Inevitably leading to death",
+      "irreversibleUnconsciousness": "Irreversible unconsciousness",
+      "irreversibleUnconsciousnessDesc": "No prospect of regaining consciousness",
+      "severeDementia": "Severe dementia",
+      "severeDementiaDesc": "Advanced dementia, no communication possible"
+    },
+    "step5": {
+      "title": "Additional Wishes and Values",
+      "description": "Optional: Do you have any further wishes?",
+      "placeholder": "e.g. religious beliefs, wishes regarding place of death, saying goodbye to loved ones..."
+    },
+    "step6": {
+      "title": "Summary",
+      "description": "Please review your information.",
+      "edit": "Edit",
+      "continueToSave": "Continue to save"
+    },
+    "step7": {
+      "title": "Create Account",
+      "description": "Your information will only be saved when you create an account.",
+      "createAccount": "Create account",
+      "alreadyRegistered": "Already registered? Sign in",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "login": "Sign in"
+    },
+    "step8": {
+      "title": "Download Documents",
+      "description": "Your documents have been created.",
+      "downloadAll": "Download all",
+      "patientenverfuegung": "Advance directive (Patientenverfügung)",
+      "vorsorgevollmacht": "Power of attorney (Vorsorgevollmacht)",
+      "betreuungsverfuegung": "Guardianship directive (Betreuungsverfügung)",
+      "printHint": "Print the documents and keep them in a safe place. Notarization of the power of attorney is recommended in many cases."
+    }
+  },
+  "progress": {
+    "step": "Step {{current}} of {{total}}"
+  }
+}
