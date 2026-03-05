@@ -1,0 +1,63 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum DocumentStatus {
+  DRAFT
+  GENERATED
+}
+
+enum DocumentType {
+  PATIENTENVERFUEGUNG
+  VORSORGEVOLLMACHT
+  BETREUUNGSVERFUEGUNG
+}
+
+model User {
+  id           String            @id @default(cuid())
+  email        String            @unique
+  passwordHash String
+  createdAt    DateTime          @default(now())
+  updatedAt    DateTime          @updatedAt
+  packages     DocumentPackage[]
+}
+
+model DocumentPackage {
+  id                     String              @id @default(cuid())
+  userId                 String
+  locale                 String
+  wizardSchemaVersion    Int
+  contentTemplateVersion Int
+  status                 DocumentStatus      @default(DRAFT)
+  createdAt              DateTime            @default(now())
+  updatedAt              DateTime            @updatedAt
+  user                   User                @relation(fields: [userId], references: [id], onDelete: Cascade)
+  answersSnapshots       Answers[]
+  generatedDocuments     GeneratedDocument[]
+}
+
+model Answers {
+  id            String          @id @default(cuid())
+  packageId     String
+  schemaVersion Int
+  data          Json
+  createdAt     DateTime        @default(now())
+  package       DocumentPackage @relation(fields: [packageId], references: [id], onDelete: Cascade)
+}
+
+model GeneratedDocument {
+  id          String          @id @default(cuid())
+  packageId   String
+  type        DocumentType
+  version     Int
+  fileName    String
+  mimeType    String          @default("application/pdf")
+  pdfData     Bytes
+  contentHash String
+  createdAt   DateTime        @default(now())
+  package     DocumentPackage @relation(fields: [packageId], references: [id], onDelete: Cascade)
+}
