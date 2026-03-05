@@ -1,0 +1,82 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  password  String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  packages         DocumentPackage[]
+  consentRecords   ConsentRecord[]
+
+  @@map("users")
+}
+
+model DocumentPackage {
+  id        String   @id @default(uuid())
+  userId    String
+  title     String   @default("Vorsorge-Dokumente")
+  version   Int      @default(1)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  user               User                @relation(fields: [userId], references: [id], onDelete: Cascade)
+  answers            WizardAnswers?
+  generatedDocuments GeneratedDocument[]
+
+  @@map("document_packages")
+}
+
+model WizardAnswers {
+  id        String   @id @default(uuid())
+  packageId String   @unique
+  version   Int      @default(1)
+  data      Json
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  package DocumentPackage @relation(fields: [packageId], references: [id], onDelete: Cascade)
+
+  @@map("wizard_answers")
+}
+
+model GeneratedDocument {
+  id           String       @id @default(uuid())
+  packageId    String
+  documentType DocumentType
+  version      Int          @default(1)
+  fileName     String
+  content      Bytes
+  createdAt    DateTime     @default(now())
+
+  package DocumentPackage @relation(fields: [packageId], references: [id], onDelete: Cascade)
+
+  @@map("generated_documents")
+}
+
+model ConsentRecord {
+  id          String   @id @default(uuid())
+  userId      String
+  version     String
+  items       Json
+  ipHash      String
+  createdAt   DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("consent_records")
+}
+
+enum DocumentType {
+  patientenverfuegung
+  vorsorgevollmacht
+  betreuungsverfuegung
+}
