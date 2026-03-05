@@ -1,0 +1,104 @@
+{
+  "app": {
+    "title": "Vorsorge Wizard",
+    "tagline": "Your advance directive documents in a few steps"
+  },
+  "intro": {
+    "title": "Welcome to Vorsorge Wizard",
+    "description": "Create your advance directive (Patientenverfügung), power of attorney (Vorsorgevollmacht), and guardianship directive (Betreuungsverfügung) in a guided process. Simple, trustworthy, and privacy-focused.",
+    "disclaimer": "Note: This tool helps you create advance directive documents. It does not constitute legal advice. For complex situations, we recommend consulting a lawyer or notary.",
+    "start": "Get started",
+    "resume": "Resume"
+  },
+  "steps": {
+    "personalInfo": "Personal Information",
+    "trustedPerson": "Trusted Person",
+    "medicalPreferences": "Medical Preferences",
+    "scenarios": "Scenarios",
+    "values": "Personal Wishes",
+    "summary": "Summary",
+    "account": "Create Account",
+    "generate": "Generate PDF"
+  },
+  "personalInfo": {
+    "fullName": "Full name",
+    "street": "Street and number",
+    "postalCode": "Postal code",
+    "city": "City",
+    "dateOfBirth": "Date of birth",
+    "placeOfBirth": "Place of birth (optional)"
+  },
+  "trustedPerson": {
+    "fullName": "Full name",
+    "relationship": "Relationship (e.g. spouse, child)",
+    "street": "Street and number",
+    "postalCode": "Postal code",
+    "city": "City",
+    "phone": "Phone (optional)",
+    "email": "Email (optional)",
+    "addSecond": "Add second trusted person"
+  },
+  "medical": {
+    "cpr": "CPR",
+    "cprTooltip": "Emergency procedure to restore heartbeat and breathing",
+    "ventilation": "Ventilation",
+    "ventilationTooltip": "Machine-assisted breathing when lungs fail",
+    "artificialNutrition": "Artificial nutrition",
+    "artificialNutritionTooltip": "Feeding via tube when eating is not possible",
+    "dialysis": "Dialysis",
+    "dialysisTooltip": "Treatment to filter blood when kidneys fail",
+    "antibiotics": "Antibiotics",
+    "antibioticsTooltip": "Medication to treat infections",
+    "painManagement": "Pain management",
+    "painManagementTooltip": "Medication to relieve pain and suffering",
+    "allow": "Yes, I want this",
+    "refuse": "No, I refuse",
+    "delegate": "Leave to my trusted person"
+  },
+  "scenarios": {
+    "terminalIllness": "Terminal illness",
+    "terminalIllnessDesc": "No prospect of recovery",
+    "irreversibleUnconsciousness": "Irreversible unconsciousness",
+    "irreversibleUnconsciousnessDesc": "Persistent vegetative state",
+    "severeDementia": "Severe dementia",
+    "severeDementiaDesc": "No capacity to understand or communicate",
+    "applyGeneral": "Apply my general preferences",
+    "customize": "Customize for this situation"
+  },
+  "values": {
+    "religiousWishes": "Religious or spiritual wishes",
+    "otherWishes": "Other personal wishes or instructions",
+    "optional": "Both fields are optional"
+  },
+  "summary": {
+    "title": "Review your answers",
+    "edit": "Edit",
+    "confirm": "Confirm and continue"
+  },
+  "auth": {
+    "createAccount": "Create account to save",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "register": "Create account",
+    "login": "Log in",
+    "logout": "Log out",
+    "skipSave": "Skip and download PDF only"
+  },
+  "generate": {
+    "title": "Your documents",
+    "download": "Download",
+    "patientenverfuegung": "Patientenverfügung",
+    "vorsorgevollmacht": "Vorsorgevollmacht",
+    "betreuungsverfuegung": "Betreuungsverfügung",
+    "downloadAll": "Download all",
+    "finalDisclaimer": "The generated documents are templates. For legal validity, we recommend consulting a lawyer or notary."
+  },
+  "common": {
+    "next": "Next",
+    "back": "Back",
+    "save": "Save",
+    "cancel": "Cancel",
+    "step": "Step {{current}} of {{total}}"
+  }
+}

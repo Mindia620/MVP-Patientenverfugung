@@ -1,0 +1,104 @@
+{
+  "app": {
+    "title": "Vorsorge Wizard",
+    "tagline": "Ihre Vorsorgedokumente in wenigen Schritten"
+  },
+  "intro": {
+    "title": "Willkommen beim Vorsorge Wizard",
+    "description": "Erstellen Sie Ihre Patientenverfügung, Vorsorgevollmacht und Betreuungsverfügung in einem geführten Prozess. Einfach, vertrauenswürdig und datenschutzorientiert.",
+    "disclaimer": "Hinweis: Dieses Tool unterstützt Sie bei der Erstellung von Vorsorgedokumenten. Es ersetzt keine rechtliche Beratung. Bei komplexen Fällen empfehlen wir die Konsultation eines Anwalts oder Notars.",
+    "start": "Jetzt starten",
+    "resume": "Fortsetzen"
+  },
+  "steps": {
+    "personalInfo": "Persönliche Daten",
+    "trustedPerson": "Vertrauensperson",
+    "medicalPreferences": "Behandlungswünsche",
+    "scenarios": "Situationen",
+    "values": "Persönliche Wünsche",
+    "summary": "Zusammenfassung",
+    "account": "Konto erstellen",
+    "generate": "PDF erstellen"
+  },
+  "personalInfo": {
+    "fullName": "Vollständiger Name",
+    "street": "Straße und Hausnummer",
+    "postalCode": "Postleitzahl",
+    "city": "Ort",
+    "dateOfBirth": "Geburtsdatum",
+    "placeOfBirth": "Geburtsort (optional)"
+  },
+  "trustedPerson": {
+    "fullName": "Vollständiger Name",
+    "relationship": "Beziehung (z.B. Ehepartner, Kind)",
+    "street": "Straße und Hausnummer",
+    "postalCode": "Postleitzahl",
+    "city": "Ort",
+    "phone": "Telefon (optional)",
+    "email": "E-Mail (optional)",
+    "addSecond": "Zweite Vertrauensperson hinzufügen"
+  },
+  "medical": {
+    "cpr": "Wiederbelebung",
+    "cprTooltip": "Notfallmaßnahme zur Wiederherstellung von Herzschlag und Atmung",
+    "ventilation": "Beatmung",
+    "ventilationTooltip": "Maschinelle Unterstützung der Atmung bei Lungenversagen",
+    "artificialNutrition": "Künstliche Ernährung",
+    "artificialNutritionTooltip": "Ernährung über Sonde, wenn Essen nicht mehr möglich ist",
+    "dialysis": "Dialyse",
+    "dialysisTooltip": "Behandlung zur Blutfilterung bei Nierenversagen",
+    "antibiotics": "Antibiotika",
+    "antibioticsTooltip": "Medikamente zur Behandlung von Infektionen",
+    "painManagement": "Schmerztherapie",
+    "painManagementTooltip": "Medikamente zur Linderung von Schmerzen und Leiden",
+    "allow": "Ja, wünsche ich",
+    "refuse": "Nein, lehne ich ab",
+    "delegate": "Überlasse ich meiner Vertrauensperson"
+  },
+  "scenarios": {
+    "terminalIllness": "Terminale Erkrankung",
+    "terminalIllnessDesc": "Keine Aussicht auf Besserung",
+    "irreversibleUnconsciousness": "Irreversible Bewusstlosigkeit",
+    "irreversibleUnconsciousnessDesc": "Dauerhafter Wachkoma-Zustand",
+    "severeDementia": "Schwere Demenz",
+    "severeDementiaDesc": "Keine Fähigkeit zu verstehen oder zu kommunizieren",
+    "applyGeneral": "Meine allgemeinen Wünsche anwenden",
+    "customize": "Für diese Situation anpassen"
+  },
+  "values": {
+    "religiousWishes": "Religiöse oder spirituelle Wünsche",
+    "otherWishes": "Weitere persönliche Wünsche oder Anweisungen",
+    "optional": "Beide Felder sind optional"
+  },
+  "summary": {
+    "title": "Überprüfen Sie Ihre Angaben",
+    "edit": "Bearbeiten",
+    "confirm": "Bestätigen und fortfahren"
+  },
+  "auth": {
+    "createAccount": "Konto erstellen zum Speichern",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "confirmPassword": "Passwort bestätigen",
+    "register": "Konto erstellen",
+    "login": "Anmelden",
+    "logout": "Abmelden",
+    "skipSave": "Überspringen und nur PDF herunterladen"
+  },
+  "generate": {
+    "title": "Ihre Dokumente",
+    "download": "Herunterladen",
+    "patientenverfuegung": "Patientenverfügung",
+    "vorsorgevollmacht": "Vorsorgevollmacht",
+    "betreuungsverfuegung": "Betreuungsverfügung",
+    "downloadAll": "Alle herunterladen",
+    "finalDisclaimer": "Die erstellten Dokumente sind Vorlagen. Für rechtliche Verbindlichkeit empfehlen wir die Beratung durch einen Anwalt oder Notar."
+  },
+  "common": {
+    "next": "Weiter",
+    "back": "Zurück",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "step": "Schritt {{current}} von {{total}}"
+  }
+}
