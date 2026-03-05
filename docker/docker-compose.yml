@@ -1,0 +1,66 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: vorsorge-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: vorsorge_wizard
+      POSTGRES_USER: vorsorge
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-changeme}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U vorsorge -d vorsorge_wizard"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - app-network
+
+  backend:
+    build:
+      context: ../backend
+      dockerfile: ../docker/Dockerfile.backend
+    container_name: vorsorge-backend
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql://vorsorge:${POSTGRES_PASSWORD:-changeme}@postgres:5432/vorsorge_wizard
+      JWT_SECRET: ${JWT_SECRET:-change-this-to-a-secure-random-string-min-32-chars}
+      NODE_ENV: production
+      PORT: 4000
+      FRONTEND_URL: ${FRONTEND_URL:-http://localhost}
+      BCRYPT_ROUNDS: 12
+      CHROMIUM_PATH: /usr/bin/google-chrome-stable
+    networks:
+      - app-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:4000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  frontend:
+    build:
+      context: ../frontend
+      dockerfile: ../docker/Dockerfile.frontend
+    container_name: vorsorge-frontend
+    restart: unless-stopped
+    depends_on:
+      - backend
+    ports:
+      - "80:80"
+    networks:
+      - app-network
+
+volumes:
+  postgres_data:
+    driver: local
+
+networks:
+  app-network:
+    driver: bridge
