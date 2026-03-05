@@ -1,0 +1,241 @@
+{
+  "app": {
+    "name": "Vorsorge Wizard",
+    "tagline": "Your advance directive documents – simple, secure, free",
+    "disclaimer": "Important Notice: Vorsorge Wizard does not constitute legal advice. The generated documents are intended as guidance and do not replace individual legal or medical consultation."
+  },
+  "nav": {
+    "dashboard": "My Documents",
+    "logout": "Log out",
+    "login": "Log in",
+    "register": "Register"
+  },
+  "landing": {
+    "headline": "Your Advance Directive Documents",
+    "subline": "Create them easily, securely, and for free",
+    "cta": "Get started",
+    "learnMore": "Learn more",
+    "timeEstimate": "approx. 10–15 minutes",
+    "privacyNote": "Your data stays on your device until you create an account",
+    "benefit1Title": "Simple",
+    "benefit1Desc": "Step-by-step guidance, no legal jargon",
+    "benefit2Title": "Secure",
+    "benefit2Desc": "Your data stays on your device until you create an account",
+    "benefit3Title": "Legally Structured",
+    "benefit3Desc": "Documents structured according to German law",
+    "doc1Title": "Living Will",
+    "doc1Desc": "Specifies your medical treatment preferences if you can no longer communicate.",
+    "doc2Title": "Health Care Power of Attorney",
+    "doc2Desc": "Authorises a trusted person to make decisions on your behalf.",
+    "doc3Title": "Guardianship Directive",
+    "doc3Desc": "Guides courts in selecting a legal guardian if one becomes necessary."
+  },
+  "wizard": {
+    "step": "Step",
+    "of": "of",
+    "back": "Back",
+    "continue": "Continue",
+    "save": "Save",
+    "progressLabel": "Progress",
+    "intro": {
+      "title": "What to expect",
+      "desc": "In about 10–15 minutes, we'll guide you through all the necessary questions to create three important advance directive documents.",
+      "startCta": "Start wizard",
+      "documents": "Documents that will be created",
+      "time": "Estimated time",
+      "privacy": "Privacy",
+      "privacyDesc": "Your answers stay on your device until you create an account."
+    },
+    "step1": {
+      "title": "Personal Information",
+      "desc": "This information will appear on all your documents.",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "birthDate": "Date of birth",
+      "birthPlace": "Place of birth",
+      "street": "Street address",
+      "postalCode": "Postal code",
+      "city": "City"
+    },
+    "step2": {
+      "title": "Trusted Person",
+      "desc": "This person will be named in your Power of Attorney and Guardianship Directive.",
+      "whyTooltip": "This person receives authority to make medical and legal decisions on your behalf when you can no longer do so yourself.",
+      "relationship": "Relationship",
+      "relationships": {
+        "spouse": "Spouse / Partner",
+        "child": "Child",
+        "sibling": "Sibling",
+        "friend": "Friend",
+        "other": "Other"
+      },
+      "phone": "Phone (optional)",
+      "addSubstitute": "Add substitute person",
+      "substituteTitle": "Substitute person (optional)",
+      "substituteDesc": "In case the primary trusted person is unavailable."
+    },
+    "step3": {
+      "title": "Medical Treatment Preferences",
+      "desc": "Specify which medical measures you wish to accept or refuse.",
+      "choiceYes": "Yes, proceed",
+      "choiceNo": "No, decline",
+      "choiceDoctor": "Doctor decides",
+      "cprTitle": "Cardiopulmonary Resuscitation (CPR)",
+      "cprQuestion": "Should resuscitation be attempted if your heart stops beating?",
+      "cprTooltip": "CPR includes chest compressions and artificial ventilation. It can save lives but sometimes causes injuries.",
+      "ventilationTitle": "Mechanical Ventilation",
+      "ventilationQuestion": "Should mechanical ventilation be used if you can no longer breathe on your own?",
+      "ventilationTooltip": "A ventilator takes over breathing via a tube in the airway.",
+      "nutritionTitle": "Artificial Nutrition",
+      "nutritionQuestion": "Should artificial nutrition (e.g. feeding tube) be used?",
+      "nutritionTooltip": "A feeding tube (PEG) delivers liquid nutrition directly to the stomach when normal eating is not possible.",
+      "dialysisTitle": "Dialysis",
+      "dialysisQuestion": "Should dialysis be used if your kidneys fail?",
+      "dialysisTooltip": "Dialysis filters waste from the blood, taking over kidney function. It requires several hours of treatment per week.",
+      "antibioticsTitle": "Antibiotics",
+      "antibioticsQuestion": "Should antibiotics be used if an infection threatens your life?",
+      "antibioticsTooltip": "Antibiotics fight bacterial infections and can be lifesaving.",
+      "antibioticsChoiceYes": "Yes, use them",
+      "antibioticsChoiceRelief": "Only for comfort",
+      "antibioticsChoiceDoctor": "Doctor decides",
+      "painTitle": "Pain Management",
+      "painQuestion": "How do you prioritise pain relief?",
+      "painTooltip": "Strong pain medication (e.g. morphine) may in some cases shorten life. This question asks how you want to balance this trade-off.",
+      "painMaxRelief": "Maximum pain relief",
+      "painLifeFirst": "Life preservation takes priority",
+      "painBalanced": "Balanced decision"
+    },
+    "step4": {
+      "title": "Situational Preferences",
+      "desc": "Specify your wishes for specific clinical situations.",
+      "terminalTitle": "Terminal Illness",
+      "terminalDesc": "If I am suffering from an incurable illness and death is expected in the foreseeable future...",
+      "terminalOptions": {
+        "noLifeProlonging": "Life-prolonging measures should be withheld",
+        "dieAtHome": "I wish to die in my familiar surroundings",
+        "palliativeCare": "I wish to receive palliative / hospice care",
+        "painOverLife": "Pain relief takes priority over life preservation"
+      },
+      "unconsciousTitle": "Irreversible Unconsciousness",
+      "unconsciousDesc": "If I am permanently unconscious with no prospect of recovery...",
+      "unconsciousOptions": {
+        "noLifeProlonging": "Life-prolonging measures should be withheld",
+        "noArtificialNutrition": "Artificial nutrition should be withheld",
+        "noVentilation": "Mechanical ventilation should be withheld"
+      },
+      "dementiaTitle": "Severe Dementia",
+      "dementiaDesc": "If I am suffering from severe dementia and can no longer make my own decisions...",
+      "dementiaOptions": {
+        "noLifeProlonging": "Life-prolonging measures should be withheld",
+        "noHospital": "Hospital admissions should be avoided",
+        "palliativeFocus": "Comfort and palliative measures take priority"
+      }
+    },
+    "step5": {
+      "title": "Personal Values & Wishes",
+      "desc": "This optional section gives your documents a personal touch.",
+      "optional": "Optional",
+      "personalStatement": "Personal statement",
+      "personalStatementPlaceholder": "What is most important to you in life? What values guide you?",
+      "personalStatementHint": "This text will appear in your living will.",
+      "religiousWishes": "Religious or philosophical wishes",
+      "religiousWishesPlaceholder": "Do you have any religious wishes regarding your treatment or funeral?",
+      "organDonation": "Organ donation",
+      "organDonationYes": "Yes, I am an organ donor",
+      "organDonationNo": "No, I am not an organ donor",
+      "organDonationUnspecified": "Prefer not to say",
+      "chars": "characters",
+      "of": "of"
+    },
+    "step6": {
+      "title": "Summary & Review",
+      "desc": "Review your information before continuing.",
+      "edit": "Edit",
+      "personalInfo": "Personal Information",
+      "representative": "Trusted Person",
+      "medicalPreferences": "Medical Preferences",
+      "scenarios": "Situational Preferences",
+      "values": "Personal Values",
+      "legalNote": "Please review all information carefully. After downloading, you must sign and date the documents by hand.",
+      "documentsToGenerate": "Documents that will be generated"
+    },
+    "step7": {
+      "title": "Create Account",
+      "desc": "Create an account to save and download your documents.",
+      "email": "Email address",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "acceptPrivacy": "I have read and accept the Privacy Policy.",
+      "acceptTerms": "I accept the Terms of Service.",
+      "emailReminders": "I would like to receive annual email reminders to review my documents.",
+      "registerCta": "Create account & save documents",
+      "alreadyHaveAccount": "Already have an account?",
+      "loginLink": "Log in",
+      "passwordStrength": {
+        "weak": "Weak",
+        "fair": "Fair",
+        "good": "Good",
+        "strong": "Strong"
+      },
+      "minChars": "Minimum 10 characters"
+    },
+    "step8": {
+      "title": "Download Documents",
+      "desc": "Your documents are ready. Download, print, and sign them by hand.",
+      "generating": "Generating documents...",
+      "downloadPdf": "Download PDF",
+      "downloadAll": "Download all documents",
+      "nextStepsTitle": "Next steps",
+      "nextStep1": "Print the documents",
+      "nextStep2": "Sign and date by hand",
+      "nextStep3": "Give a copy to your trusted person",
+      "nextStep4": "Store the original in a safe place",
+      "nextStep5": "Inform your GP about the existence of the documents",
+      "goToDashboard": "Go to dashboard"
+    }
+  },
+  "documents": {
+    "patientenverfuegung": "Living Will",
+    "vorsorgevollmacht": "Health Care Power of Attorney",
+    "betreuungsverfuegung": "Guardianship Directive",
+    "patientenverfuegungDesc": "Specifies your medical treatment preferences.",
+    "vorsorgevollmachtDesc": "Authorises a person to act on your behalf.",
+    "betreuungsverfuegungDesc": "Guides courts in guardian selection."
+  },
+  "auth": {
+    "loginTitle": "Log in",
+    "registerTitle": "Create account",
+    "email": "Email address",
+    "password": "Password",
+    "loginCta": "Log in",
+    "noAccount": "Don't have an account?",
+    "registerLink": "Register now",
+    "logoutSuccess": "You have been successfully logged out."
+  },
+  "dashboard": {
+    "title": "My Documents",
+    "noPackages": "No documents created yet.",
+    "startWizard": "Start wizard",
+    "created": "Created on",
+    "download": "Download",
+    "delete": "Delete",
+    "confirmDelete": "Are you sure you want to delete this document package? This action cannot be undone.",
+    "newPackage": "Create new documents"
+  },
+  "errors": {
+    "required": "This field is required.",
+    "invalidEmail": "Please enter a valid email address.",
+    "invalidPostalCode": "Please enter a valid postal code (5 digits).",
+    "passwordTooShort": "Password must be at least 10 characters long.",
+    "passwordMismatch": "Passwords do not match.",
+    "mustAccept": "Please accept to continue.",
+    "networkError": "Network error. Please try again.",
+    "serverError": "An error occurred. Please try again later."
+  },
+  "footer": {
+    "disclaimer": "Vorsorge Wizard does not constitute legal advice.",
+    "impressum": "Legal Notice",
+    "datenschutz": "Privacy Policy",
+    "nutzungsbedingungen": "Terms of Service"
+  }
+}

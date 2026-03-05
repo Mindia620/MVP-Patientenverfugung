@@ -1,0 +1,241 @@
+{
+  "app": {
+    "name": "Vorsorge Wizard",
+    "tagline": "Ihre Vorsorge-Dokumente – einfach, sicher, kostenlos",
+    "disclaimer": "Wichtiger Hinweis: Vorsorge Wizard stellt keine Rechtsberatung dar. Die erzeugten Dokumente sind als Hilfestellung gedacht und ersetzen keine individuelle rechtliche oder medizinische Beratung."
+  },
+  "nav": {
+    "dashboard": "Meine Dokumente",
+    "logout": "Abmelden",
+    "login": "Anmelden",
+    "register": "Registrieren"
+  },
+  "landing": {
+    "headline": "Ihre Vorsorge-Dokumente",
+    "subline": "Einfach, sicher und kostenlos erstellen",
+    "cta": "Jetzt starten",
+    "learnMore": "Mehr erfahren",
+    "timeEstimate": "ca. 10–15 Minuten",
+    "privacyNote": "Ihre Daten werden erst nach Kontoerstellung gespeichert",
+    "benefit1Title": "Einfach",
+    "benefit1Desc": "Schritt für Schritt geführt, ohne Juristendeutsch",
+    "benefit2Title": "Sicher",
+    "benefit2Desc": "Ihre Daten bleiben auf Ihrem Gerät, bis Sie ein Konto erstellen",
+    "benefit3Title": "Rechtssicher",
+    "benefit3Desc": "Nach deutschem Recht strukturierte Dokumente",
+    "doc1Title": "Patientenverfügung",
+    "doc1Desc": "Regelt medizinische Behandlungswünsche für den Fall, dass Sie sich nicht mehr äußern können.",
+    "doc2Title": "Vorsorgevollmacht",
+    "doc2Desc": "Bevollmächtigt eine Vertrauensperson, Entscheidungen in Ihrem Namen zu treffen.",
+    "doc3Title": "Betreuungsverfügung",
+    "doc3Desc": "Gibt dem Gericht Hinweise zur Auswahl eines gesetzlichen Betreuers."
+  },
+  "wizard": {
+    "step": "Schritt",
+    "of": "von",
+    "back": "Zurück",
+    "continue": "Weiter",
+    "save": "Speichern",
+    "progressLabel": "Fortschritt",
+    "intro": {
+      "title": "Was erwartet Sie?",
+      "desc": "In etwa 10–15 Minuten führen wir Sie durch alle notwendigen Fragen, um drei wichtige Vorsorge-Dokumente zu erstellen.",
+      "startCta": "Wizard starten",
+      "documents": "Dokumente, die erstellt werden",
+      "time": "Geschätzte Zeit",
+      "privacy": "Datenschutz",
+      "privacyDesc": "Ihre Eingaben verbleiben auf Ihrem Gerät, bis Sie ein Konto erstellen."
+    },
+    "step1": {
+      "title": "Persönliche Angaben",
+      "desc": "Diese Angaben erscheinen auf allen Ihren Dokumenten.",
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "birthDate": "Geburtsdatum",
+      "birthPlace": "Geburtsort",
+      "street": "Straße und Hausnummer",
+      "postalCode": "Postleitzahl",
+      "city": "Stadt"
+    },
+    "step2": {
+      "title": "Vertrauensperson",
+      "desc": "Diese Person wird in Ihrer Vorsorgevollmacht und Betreuungsverfügung benannt.",
+      "whyTooltip": "Diese Person erhält die Vollmacht, in medizinischen und rechtlichen Angelegenheiten für Sie zu entscheiden, wenn Sie es selbst nicht mehr können.",
+      "relationship": "Beziehung",
+      "relationships": {
+        "spouse": "Ehepartner/in",
+        "child": "Kind",
+        "sibling": "Geschwister",
+        "friend": "Freund/in",
+        "other": "Sonstige"
+      },
+      "phone": "Telefon (optional)",
+      "addSubstitute": "Ersatzperson hinzufügen",
+      "substituteTitle": "Ersatzperson (optional)",
+      "substituteDesc": "Falls die erste Vertrauensperson nicht verfügbar ist."
+    },
+    "step3": {
+      "title": "Medizinische Behandlungswünsche",
+      "desc": "Legen Sie fest, welche medizinischen Maßnahmen Sie wünschen oder ablehnen.",
+      "choiceYes": "Ja, durchführen",
+      "choiceNo": "Nein, verzichten",
+      "choiceDoctor": "Arzt soll entscheiden",
+      "cprTitle": "Wiederbelebung (CPR)",
+      "cprQuestion": "Soll eine Wiederbelebung versucht werden, wenn Ihr Herz aufhört zu schlagen?",
+      "cprTooltip": "Die kardiopulmonale Reanimation (CPR) umfasst Herzdruckmassage und Beatmung. Sie kann das Leben retten, hinterlässt aber manchmal Schäden.",
+      "ventilationTitle": "Künstliche Beatmung",
+      "ventilationQuestion": "Soll eine künstliche Beatmung eingesetzt werden, wenn Sie nicht mehr selbst atmen können?",
+      "ventilationTooltip": "Bei der maschinellen Beatmung übernimmt ein Gerät die Atemfunktion über einen Schlauch in der Luftröhre.",
+      "nutritionTitle": "Künstliche Ernährung",
+      "nutritionQuestion": "Soll künstliche Ernährung (z. B. Magensonde) eingesetzt werden?",
+      "nutritionTooltip": "Eine Magensonde (PEG) führt flüssige Nahrung direkt in den Magen. Sie wird eingesetzt, wenn normales Essen nicht möglich ist.",
+      "dialysisTitle": "Dialyse",
+      "dialysisQuestion": "Soll Dialyse eingesetzt werden, wenn Ihre Nieren versagen?",
+      "dialysisTooltip": "Dialyse übernimmt die Funktion der Nieren und reinigt das Blut von Giftstoffen. Sie erfordert mehrere Stunden Behandlung pro Woche.",
+      "antibioticsTitle": "Antibiotika",
+      "antibioticsQuestion": "Sollen Antibiotika eingesetzt werden, wenn eine Infektion Ihr Leben bedroht?",
+      "antibioticsTooltip": "Antibiotika bekämpfen bakterielle Infektionen und können lebensrettend sein.",
+      "antibioticsChoiceYes": "Ja, einsetzen",
+      "antibioticsChoiceRelief": "Nur zur Linderung",
+      "antibioticsChoiceDoctor": "Arzt soll entscheiden",
+      "painTitle": "Schmerzbehandlung",
+      "painQuestion": "Wie priorisieren Sie Schmerzlinderung?",
+      "painTooltip": "Starke Schmerzmittel (z. B. Morphin) können das Leben in bestimmten Situationen verkürzen. Die Frage ist, wie Sie diese Abwägung treffen möchten.",
+      "painMaxRelief": "Maximale Schmerzlinderung",
+      "painLifeFirst": "Lebenserhalt hat Vorrang",
+      "painBalanced": "Ausgeglichene Entscheidung"
+    },
+    "step4": {
+      "title": "Situationsbezogene Wünsche",
+      "desc": "Legen Sie fest, was Sie sich in bestimmten medizinischen Situationen wünschen.",
+      "terminalTitle": "Unheilbare Erkrankung",
+      "terminalDesc": "Wenn ich an einer unheilbaren Erkrankung leide und mein Tod in absehbarer Zeit zu erwarten ist...",
+      "terminalOptions": {
+        "noLifeProlonging": "Lebensverlängernde Maßnahmen sollen unterbleiben",
+        "dieAtHome": "Ich möchte in meiner gewohnten Umgebung sterben",
+        "palliativeCare": "Ich möchte Palliativversorgung / Hospizbegleitung",
+        "painOverLife": "Schmerzlinderung hat Vorrang vor Lebenserhalt"
+      },
+      "unconsciousTitle": "Dauerhaftes Koma",
+      "unconsciousDesc": "Wenn ich dauerhaft bewusstlos bin und keine Aussicht auf Erholung besteht...",
+      "unconsciousOptions": {
+        "noLifeProlonging": "Lebensverlängernde Maßnahmen sollen unterbleiben",
+        "noArtificialNutrition": "Auf künstliche Ernährung soll verzichtet werden",
+        "noVentilation": "Auf Beatmung soll verzichtet werden"
+      },
+      "dementiaTitle": "Schwere Demenz",
+      "dementiaDesc": "Wenn ich an einer schweren Demenz leide und keine eigenen Entscheidungen mehr treffen kann...",
+      "dementiaOptions": {
+        "noLifeProlonging": "Lebensverlängernde Maßnahmen sollen unterbleiben",
+        "noHospital": "Krankenhauseinweisungen sollen vermieden werden",
+        "palliativeFocus": "Wohlfühl- und Palliativmaßnahmen haben Vorrang"
+      }
+    },
+    "step5": {
+      "title": "Persönliche Werte & Wünsche",
+      "desc": "Dieser optionale Abschnitt gibt Ihren Dokumenten eine persönliche Note.",
+      "optional": "Optional",
+      "personalStatement": "Persönliche Erklärung",
+      "personalStatementPlaceholder": "Was ist Ihnen im Leben besonders wichtig? Welche Werte leiten Sie?",
+      "personalStatementHint": "Dieser Text erscheint in Ihrer Patientenverfügung.",
+      "religiousWishes": "Religiöse oder weltanschauliche Wünsche",
+      "religiousWishesPlaceholder": "Haben Sie religiöse Wünsche bezüglich Ihrer Behandlung oder Bestattung?",
+      "organDonation": "Organspende",
+      "organDonationYes": "Ja, ich bin Organspender",
+      "organDonationNo": "Nein, ich bin kein Organspender",
+      "organDonationUnspecified": "Keine Angabe",
+      "chars": "Zeichen",
+      "of": "von"
+    },
+    "step6": {
+      "title": "Zusammenfassung & Überprüfung",
+      "desc": "Überprüfen Sie Ihre Angaben, bevor Sie fortfahren.",
+      "edit": "Bearbeiten",
+      "personalInfo": "Persönliche Angaben",
+      "representative": "Vertrauensperson",
+      "medicalPreferences": "Medizinische Wünsche",
+      "scenarios": "Situationsbezogene Wünsche",
+      "values": "Persönliche Werte",
+      "legalNote": "Bitte prüfen Sie alle Angaben sorgfältig. Nach dem Herunterladen müssen Sie die Dokumente eigenhändig unterschreiben und datieren.",
+      "documentsToGenerate": "Folgende Dokumente werden erstellt"
+    },
+    "step7": {
+      "title": "Konto erstellen",
+      "desc": "Erstellen Sie ein Konto, um Ihre Dokumente zu speichern und herunterzuladen.",
+      "email": "E-Mail-Adresse",
+      "password": "Passwort",
+      "confirmPassword": "Passwort bestätigen",
+      "acceptPrivacy": "Ich habe die Datenschutzerklärung gelesen und akzeptiert.",
+      "acceptTerms": "Ich akzeptiere die Nutzungsbedingungen.",
+      "emailReminders": "Ich möchte jährliche E-Mail-Erinnerungen erhalten, meine Dokumente zu überprüfen.",
+      "registerCta": "Konto erstellen & Dokumente speichern",
+      "alreadyHaveAccount": "Bereits registriert?",
+      "loginLink": "Anmelden",
+      "passwordStrength": {
+        "weak": "Schwach",
+        "fair": "Ausreichend",
+        "good": "Gut",
+        "strong": "Stark"
+      },
+      "minChars": "Mindestens 10 Zeichen"
+    },
+    "step8": {
+      "title": "Dokumente herunterladen",
+      "desc": "Ihre Dokumente sind bereit. Laden Sie sie herunter, drucken Sie sie aus und unterschreiben Sie sie eigenhändig.",
+      "generating": "Dokumente werden erstellt...",
+      "downloadPdf": "PDF herunterladen",
+      "downloadAll": "Alle Dokumente herunterladen",
+      "nextStepsTitle": "Nächste Schritte",
+      "nextStep1": "Dokumente ausdrucken",
+      "nextStep2": "Eigenhändig unterschreiben und datieren",
+      "nextStep3": "Vertrauensperson eine Kopie aushändigen",
+      "nextStep4": "Original an einem sicheren Ort aufbewahren",
+      "nextStep5": "Hausarzt über die Existenz informieren",
+      "goToDashboard": "Zum Dashboard"
+    }
+  },
+  "documents": {
+    "patientenverfuegung": "Patientenverfügung",
+    "vorsorgevollmacht": "Vorsorgevollmacht",
+    "betreuungsverfuegung": "Betreuungsverfügung",
+    "patientenverfuegungDesc": "Legt Ihre medizinischen Behandlungswünsche fest.",
+    "vorsorgevollmachtDesc": "Bevollmächtigt eine Person, für Sie zu handeln.",
+    "betreuungsverfuegungDesc": "Gibt dem Gericht Hinweise zur Betreuerauswahl."
+  },
+  "auth": {
+    "loginTitle": "Anmelden",
+    "registerTitle": "Konto erstellen",
+    "email": "E-Mail-Adresse",
+    "password": "Passwort",
+    "loginCta": "Anmelden",
+    "noAccount": "Noch kein Konto?",
+    "registerLink": "Jetzt registrieren",
+    "logoutSuccess": "Sie wurden erfolgreich abgemeldet."
+  },
+  "dashboard": {
+    "title": "Meine Dokumente",
+    "noPackages": "Noch keine Dokumente erstellt.",
+    "startWizard": "Wizard starten",
+    "created": "Erstellt am",
+    "download": "Herunterladen",
+    "delete": "Löschen",
+    "confirmDelete": "Möchten Sie dieses Dokumentenpaket wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
+    "newPackage": "Neue Dokumente erstellen"
+  },
+  "errors": {
+    "required": "Dieses Feld ist erforderlich.",
+    "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+    "invalidPostalCode": "Bitte geben Sie eine gültige Postleitzahl (5 Stellen) ein.",
+    "passwordTooShort": "Das Passwort muss mindestens 10 Zeichen lang sein.",
+    "passwordMismatch": "Die Passwörter stimmen nicht überein.",
+    "mustAccept": "Bitte akzeptieren Sie, um fortzufahren.",
+    "networkError": "Netzwerkfehler. Bitte versuchen Sie es erneut.",
+    "serverError": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut."
+  },
+  "footer": {
+    "disclaimer": "Vorsorge Wizard stellt keine Rechtsberatung dar.",
+    "impressum": "Impressum",
+    "datenschutz": "Datenschutz",
+    "nutzungsbedingungen": "Nutzungsbedingungen"
+  }
+}
