@@ -1,0 +1,260 @@
+{
+  "app": {
+    "name": "Vorsorge Wizard",
+    "tagline": "Your advance directive documents — simple, secure, private."
+  },
+  "nav": {
+    "home": "Home",
+    "dashboard": "My Documents",
+    "login": "Sign In",
+    "register": "Register",
+    "logout": "Sign Out",
+    "language": "Language"
+  },
+  "intro": {
+    "title": "Create Your Advance Directives",
+    "subtitle": "Legally structured documents in just a few steps — free and without a lawyer.",
+    "doc1": "Living Will (Patientenverfügung)",
+    "doc1Desc": "Define which medical treatments should be carried out in specific situations.",
+    "doc2": "Power of Attorney (Vorsorgevollmacht)",
+    "doc2Desc": "Designate a trusted person who may make decisions on your behalf.",
+    "doc3": "Custodianship Directive (Betreuungsverfügung)",
+    "doc3Desc": "Suggest to the court who should become your guardian, if necessary.",
+    "disclaimer": "Legal Disclaimer",
+    "disclaimerText": "Vorsorge Wizard does not provide legal advice. The generated documents are based on commonly accepted formulations and do not replace individual legal counsel. For complex financial situations or special medical circumstances, we recommend consulting a lawyer or notary.",
+    "privacyNote": "Your data stays private. No account needed to get started.",
+    "cta": "Get Started",
+    "estimatedTime": "Estimated time: 10–15 minutes"
+  },
+  "wizard": {
+    "step": "Step",
+    "of": "of",
+    "next": "Next",
+    "back": "Back",
+    "saveDraft": "Save Draft",
+    "steps": {
+      "intro": "Start",
+      "personalInfo": "Personal Info",
+      "trustedPerson": "Trusted Person",
+      "medicalPreferences": "Treatment Preferences",
+      "situationalScenarios": "Scenarios",
+      "valuesWishes": "Values & Wishes",
+      "summary": "Summary",
+      "account": "Account",
+      "generate": "Documents"
+    }
+  },
+  "personalInfo": {
+    "title": "Personal Information",
+    "subtitle": "This information is needed for your advance directive documents.",
+    "salutation": "Salutation",
+    "salutations": {
+      "herr": "Mr.",
+      "frau": "Ms.",
+      "divers": "Other"
+    },
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "dateOfBirth": "Date of Birth",
+    "placeOfBirth": "Place of Birth",
+    "street": "Street and House Number",
+    "postalCode": "Postal Code",
+    "city": "City",
+    "phone": "Phone (optional)"
+  },
+  "trustedPerson": {
+    "title": "Trusted Person",
+    "subtitle": "Choose a person you trust to make decisions on your behalf in case of emergency.",
+    "relationship": "Relationship",
+    "relationships": {
+      "ehepartner": "Spouse",
+      "kind": "Child",
+      "elternteil": "Parent",
+      "freund": "Friend",
+      "sonstige": "Other"
+    },
+    "addAlternate": "Add alternate person",
+    "removeAlternate": "Remove alternate person",
+    "alternateTitle": "Alternate Person",
+    "alternateHint": "If your primary trusted person is unavailable, this person can act in their place.",
+    "whyAlternate": "Why an alternate person?",
+    "whyAlternateText": "If your primary trusted person is unreachable or incapacitated, the alternate person assumes all rights and responsibilities."
+  },
+  "medicalPreferences": {
+    "title": "Treatment Preferences",
+    "subtitle": "Define which medical treatments you wish to receive or decline.",
+    "options": {
+      "yes": "Yes, I want this",
+      "no": "No, I decline this",
+      "doctor_decides": "The doctor should decide"
+    },
+    "cpr": {
+      "title": "Cardiopulmonary Resuscitation (CPR)",
+      "question": "Should resuscitation measures be performed?",
+      "tooltip": "In case of cardiac arrest, measures like chest compressions and defibrillation are taken to restart the heart."
+    },
+    "ventilation": {
+      "title": "Mechanical Ventilation",
+      "question": "Should you be mechanically ventilated?",
+      "tooltip": "A ventilator takes over the breathing function when you can no longer breathe independently."
+    },
+    "artificialNutrition": {
+      "title": "Artificial Nutrition",
+      "question": "Should you receive artificial nutrition?",
+      "tooltip": "Nutrients are delivered through a tube directly to the stomach (PEG tube) or through a vein (parenteral nutrition)."
+    },
+    "dialysis": {
+      "title": "Dialysis",
+      "question": "Should dialysis be performed?",
+      "tooltip": "A machine takes over the function of the kidneys and cleanses the blood of waste products."
+    },
+    "antibiotics": {
+      "title": "Antibiotics",
+      "question": "Should antibiotics be used to treat infections?",
+      "tooltip": "Medications that fight bacterial infections. In certain situations, an infection may be considered part of the natural dying process."
+    },
+    "painManagement": {
+      "title": "Pain Management",
+      "question": "Should comprehensive pain management be provided?",
+      "tooltip": "Strong painkillers (e.g., morphine) can relieve pain and suffering. In high doses, they may shorten life expectancy as a side effect.",
+      "note": "Note: Most people wish for comprehensive pain management."
+    }
+  },
+  "situationalScenarios": {
+    "title": "Situational Scenarios",
+    "subtitle": "In which situations should your treatment preferences apply?",
+    "hint": "Please select at least one scenario.",
+    "terminalIllness": {
+      "title": "Terminal Illness",
+      "description": "When I suffer from an incurable disease that will lead to death despite medical treatment.",
+      "info": "A condition where, in medical judgment, no cure is possible and death will occur in the foreseeable future."
+    },
+    "irreversibleUnconsciousness": {
+      "title": "Irreversible Unconsciousness",
+      "description": "When I have permanently lost consciousness and, in medical judgment, will not regain it.",
+      "info": "A state where the brain is so severely damaged that regaining consciousness is excluded according to scientific knowledge."
+    },
+    "severeDementia": {
+      "title": "Severe Dementia",
+      "description": "When, due to advanced dementia, I am no longer able to recognize people, communicate, or act independently.",
+      "info": "The end stage of a dementia illness where independent living is no longer possible."
+    }
+  },
+  "valuesWishes": {
+    "title": "Values and Personal Wishes",
+    "subtitle": "Optional: Describe in your own words what is important to you.",
+    "optional": "(Optional)",
+    "personalValues": "Personal Values",
+    "personalValuesPlaceholder": "e.g., It is important to me that I may die with dignity and my family is around me.",
+    "religiousWishes": "Religious or Spiritual Wishes",
+    "religiousWishesPlaceholder": "e.g., I wish for spiritual support.",
+    "organDonation": "Organ Donation",
+    "organDonationOptions": {
+      "yes": "Yes, I am willing to donate organs",
+      "no": "No, I decline organ donation",
+      "restricted": "Only specific organs"
+    },
+    "burialWishes": "Burial Wishes",
+    "burialWishesPlaceholder": "e.g., I wish for cremation.",
+    "examples": "Examples",
+    "exampleTexts": [
+      "It is important to me that I may die at home.",
+      "I do not want life-prolonging measures if I am no longer of sound mind.",
+      "My family should be informed about my wishes."
+    ]
+  },
+  "summary": {
+    "title": "Summary",
+    "subtitle": "Please review your information carefully.",
+    "edit": "Edit",
+    "sections": {
+      "personalInfo": "Personal Information",
+      "trustedPerson": "Trusted Person",
+      "alternatePerson": "Alternate Person",
+      "medicalPreferences": "Treatment Preferences",
+      "situationalScenarios": "Situational Scenarios",
+      "valuesWishes": "Values & Wishes"
+    },
+    "confirm": "I have reviewed all information and confirm its accuracy.",
+    "disclaimerReminder": "The generated documents are based on your information and commonly accepted formulations. They do not replace individual legal advice."
+  },
+  "account": {
+    "title": "Create Account",
+    "subtitle": "Create an account to save your documents and download them again later.",
+    "loginTitle": "Welcome Back",
+    "loginSubtitle": "Sign in to save your documents.",
+    "email": "Email Address",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "register": "Create Account",
+    "login": "Sign In",
+    "switchToLogin": "Already have an account?",
+    "switchToRegister": "Don't have an account?",
+    "acceptPrivacy": "I accept the Privacy Policy",
+    "acceptTerms": "I accept the Terms of Service",
+    "passwordHint": "At least 8 characters"
+  },
+  "generate": {
+    "title": "Your Documents",
+    "generating": "Generating documents...",
+    "success": "Your documents have been successfully created!",
+    "download": "Download",
+    "downloadAll": "Download All",
+    "printHint": "Please print and sign the documents. Only signed documents are legally valid.",
+    "toDashboard": "Go to Dashboard",
+    "documents": {
+      "patientenverfuegung": "Living Will (Patientenverfügung)",
+      "vorsorgevollmacht": "Power of Attorney (Vorsorgevollmacht)",
+      "betreuungsverfuegung": "Custodianship Directive (Betreuungsverfügung)"
+    }
+  },
+  "dashboard": {
+    "title": "My Documents",
+    "empty": "You haven't created any documents yet.",
+    "createNew": "Create New Documents",
+    "package": "Document Package",
+    "createdAt": "Created on",
+    "status": "Status",
+    "statuses": {
+      "DRAFT": "Draft",
+      "COMPLETED": "Completed",
+      "ARCHIVED": "Archived"
+    },
+    "actions": "Actions",
+    "delete": "Delete",
+    "deleteConfirm": "Are you sure you want to delete this document package? This action cannot be undone.",
+    "settings": "Account Settings",
+    "deleteAccount": "Delete Account",
+    "deleteAccountConfirm": "Are you sure you want to delete your account and all associated data? This action cannot be undone."
+  },
+  "footer": {
+    "disclaimer": "Vorsorge Wizard does not provide legal advice.",
+    "privacy": "Privacy Policy",
+    "imprint": "Imprint",
+    "terms": "Terms of Service"
+  },
+  "validation": {
+    "required": "This field is required.",
+    "min2Chars": "At least 2 characters required.",
+    "min3Chars": "At least 3 characters required.",
+    "postalCodeFormat": "Please enter a valid 5-digit postal code.",
+    "phoneFormat": "Please enter a valid phone number.",
+    "atLeastOneScenario": "Please select at least one scenario.",
+    "mustConfirm": "Please confirm your information.",
+    "alternatePersonRequired": "Please fill in the alternate person information.",
+    "passwordMismatch": "Passwords do not match.",
+    "emailInvalid": "Please enter a valid email address.",
+    "passwordMin": "Password must be at least 8 characters."
+  },
+  "common": {
+    "yes": "Yes",
+    "no": "No",
+    "loading": "Loading...",
+    "error": "An error occurred.",
+    "retry": "Try Again",
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "moreInfo": "Learn more"
+  }
+}
