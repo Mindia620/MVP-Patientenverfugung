@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEADBEEF000000000000004A /* MeineVorsorgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFEBABE000000000000004A /* MeineVorsorgeApp.swift */; };
+		DEADBEEF000000000000004B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFEBABE000000000000004B /* ContentView.swift */; };
+		DEADBEEF000000000000004C /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFEBABE000000000000004C /* Models.swift */; };
+		DEADBEEF000000000000004D /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFEBABE000000000000004D /* APIService.swift */; };
+		DEADBEEF000000000000004E /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFEBABE000000000000004E /* AuthViewModel.swift */; };
+		DEADBEEF000000000000004F /* WizardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFEBABE000000000000004F /* WizardViewModel.swift */; };
+		DEADBEEF000000000000005A /* WizardStepLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFEBABE000000000000005A /* WizardStepLogic.swift */; };
+		DEADBEEF000000000000005B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFEBABE000000000000005B /* HomeView.swift */; };
+		DEADBEEF000000000000005C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFEBABE000000000000005C /* LoginView.swift */; };
+		DEADBEEF000000000000005D /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFEBABE000000000000005D /* RegisterView.swift */; };
+		DEADBEEF000000000000005E /* WizardContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFEBABE000000000000005E /* WizardContainerView.swift */; };
+		DEADBEEF000000000000005F /* Step0DocumentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFEBABE000000000000005F /* Step0DocumentsView.swift */; };
+		DEADBEEF000000000000006A /* Step1PersonalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFEBABE000000000000006A /* Step1PersonalView.swift */; };
+		DEADBEEF000000000000006B /* Step2AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFEBABE000000000000006B /* Step2AddressView.swift */; };
+		DEADBEEF000000000000006C /* Step3TrustedPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFEBABE000000000000006C /* Step3TrustedPersonView.swift */; };
+		DEADBEEF000000000000006D /* Step4TrustedPersonAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFEBABE000000000000006D /* Step4TrustedPersonAddressView.swift */; };
+		DEADBEEF000000000000006E /* Step5Medical1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFEBABE000000000000006E /* Step5Medical1View.swift */; };
+		DEADBEEF000000000000006F /* Step6Medical2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFEBABE000000000000006F /* Step6Medical2View.swift */; };
+		DEADBEEF000000000000007A /* Step7ScenarioTerminalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFEBABE000000000000007A /* Step7ScenarioTerminalView.swift */; };
+		DEADBEEF000000000000007B /* Step8ScenarioComaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFEBABE000000000000007B /* Step8ScenarioComaView.swift */; };
+		DEADBEEF000000000000007C /* Step9ScenarioDementiaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFEBABE000000000000007C /* Step9ScenarioDementiaView.swift */; };
+		DEADBEEF000000000000007D /* Step10ValuesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFEBABE000000000000007D /* Step10ValuesView.swift */; };
+		DEADBEEF000000000000007E /* Step11SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFEBABE000000000000007E /* Step11SummaryView.swift */; };
+		DEADBEEF000000000000007F /* Step12AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFEBABE000000000000007F /* Step12AccountView.swift */; };
+		DEADBEEF000000000000008A /* Step13DocumentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFEBABE000000000000008A /* Step13DocumentsView.swift */; };
+		DEADBEEF000000000000008B /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFEBABE000000000000008B /* DashboardView.swift */; };
+		DEADBEEF000000000000008C /* SharedComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFEBABE000000000000008C /* SharedComponents.swift */; };
+		DEADBEEF000000000000008D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFEBABE000000000000008D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CAFEBABE000000000000001C /* MeineVorsorge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeineVorsorge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFEBABE000000000000004A /* MeineVorsorgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeineVorsorgeApp.swift; sourceTree = "<group>"; };
+		CAFEBABE000000000000004B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CAFEBABE000000000000004C /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		CAFEBABE000000000000004D /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		CAFEBABE000000000000004E /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		CAFEBABE000000000000004F /* WizardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardViewModel.swift; sourceTree = "<group>"; };
+		CAFEBABE000000000000005A /* WizardStepLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardStepLogic.swift; sourceTree = "<group>"; };
+		CAFEBABE000000000000005B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CAFEBABE000000000000005C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CAFEBABE000000000000005D /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		CAFEBABE000000000000005E /* WizardContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardContainerView.swift; sourceTree = "<group>"; };
+		CAFEBABE000000000000005F /* Step0DocumentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step0DocumentsView.swift; sourceTree = "<group>"; };
+		CAFEBABE000000000000006A /* Step1PersonalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step1PersonalView.swift; sourceTree = "<group>"; };
+		CAFEBABE000000000000006B /* Step2AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step2AddressView.swift; sourceTree = "<group>"; };
+		CAFEBABE000000000000006C /* Step3TrustedPersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step3TrustedPersonView.swift; sourceTree = "<group>"; };
+		CAFEBABE000000000000006D /* Step4TrustedPersonAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step4TrustedPersonAddressView.swift; sourceTree = "<group>"; };
+		CAFEBABE000000000000006E /* Step5Medical1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step5Medical1View.swift; sourceTree = "<group>"; };
+		CAFEBABE000000000000006F /* Step6Medical2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step6Medical2View.swift; sourceTree = "<group>"; };
+		CAFEBABE000000000000007A /* Step7ScenarioTerminalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step7ScenarioTerminalView.swift; sourceTree = "<group>"; };
+		CAFEBABE000000000000007B /* Step8ScenarioComaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step8ScenarioComaView.swift; sourceTree = "<group>"; };
+		CAFEBABE000000000000007C /* Step9ScenarioDementiaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step9ScenarioDementiaView.swift; sourceTree = "<group>"; };
+		CAFEBABE000000000000007D /* Step10ValuesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step10ValuesView.swift; sourceTree = "<group>"; };
+		CAFEBABE000000000000007E /* Step11SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step11SummaryView.swift; sourceTree = "<group>"; };
+		CAFEBABE000000000000007F /* Step12AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step12AccountView.swift; sourceTree = "<group>"; };
+		CAFEBABE000000000000008A /* Step13DocumentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step13DocumentsView.swift; sourceTree = "<group>"; };
+		CAFEBABE000000000000008B /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		CAFEBABE000000000000008C /* SharedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedComponents.swift; sourceTree = "<group>"; };
+		CAFEBABE000000000000008D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEADBEEF000000000000002A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEADBEEF000000000000003B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAFEBABE000000000000001C /* MeineVorsorge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEADBEEF000000000000001B /* MeineVorsorge */ = {
+			isa = PBXGroup;
+			children = (
+				CAFEBABE000000000000004A /* MeineVorsorgeApp.swift */,
+				CAFEBABE000000000000004B /* ContentView.swift */,
+				CAFEBABE000000000000004C /* Models.swift */,
+				CAFEBABE000000000000004D /* APIService.swift */,
+				CAFEBABE000000000000004E /* AuthViewModel.swift */,
+				CAFEBABE000000000000004F /* WizardViewModel.swift */,
+				CAFEBABE000000000000005A /* WizardStepLogic.swift */,
+				CAFEBABE000000000000005B /* HomeView.swift */,
+				CAFEBABE000000000000005C /* LoginView.swift */,
+				CAFEBABE000000000000005D /* RegisterView.swift */,
+				CAFEBABE000000000000005E /* WizardContainerView.swift */,
+				CAFEBABE000000000000005F /* Step0DocumentsView.swift */,
+				CAFEBABE000000000000006A /* Step1PersonalView.swift */,
+				CAFEBABE000000000000006B /* Step2AddressView.swift */,
+				CAFEBABE000000000000006C /* Step3TrustedPersonView.swift */,
+				CAFEBABE000000000000006D /* Step4TrustedPersonAddressView.swift */,
+				CAFEBABE000000000000006E /* Step5Medical1View.swift */,
+				CAFEBABE000000000000006F /* Step6Medical2View.swift */,
+				CAFEBABE000000000000007A /* Step7ScenarioTerminalView.swift */,
+				CAFEBABE000000000000007B /* Step8ScenarioComaView.swift */,
+				CAFEBABE000000000000007C /* Step9ScenarioDementiaView.swift */,
+				CAFEBABE000000000000007D /* Step10ValuesView.swift */,
+				CAFEBABE000000000000007E /* Step11SummaryView.swift */,
+				CAFEBABE000000000000007F /* Step12AccountView.swift */,
+				CAFEBABE000000000000008A /* Step13DocumentsView.swift */,
+				CAFEBABE000000000000008B /* DashboardView.swift */,
+				CAFEBABE000000000000008C /* SharedComponents.swift */,
+				CAFEBABE000000000000008D /* Assets.xcassets */,
+			);
+			path = MeineVorsorge;
+			sourceTree = "<group>";
+		};
+		DEADBEEF000000000000001A /* MainGroup */ = {
+			isa = PBXGroup;
+			children = (
+				DEADBEEF000000000000001B /* MeineVorsorge */,
+				DEADBEEF000000000000003B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEADBEEF000000000000001D /* MeineVorsorge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEADBEEF000000000000003A /* Build configuration list for PBXNativeTarget "MeineVorsorge" */;
+			buildPhases = (
+				DEADBEEF000000000000001E /* Sources */,
+				DEADBEEF000000000000002A /* Frameworks */,
+				DEADBEEF000000000000001F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeineVorsorge;
+			productName = MeineVorsorge;
+			productReference = CAFEBABE000000000000001C /* MeineVorsorge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEADBEEF000000000000001C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					DEADBEEF000000000000001D = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = DEADBEEF000000000000002F /* Build configuration list for PBXProject "MeineVorsorge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = de;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				de,
+				en,
+				Base,
+			);
+			mainGroup = DEADBEEF000000000000001A /* MainGroup */;
+			productRefGroup = DEADBEEF000000000000003B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEADBEEF000000000000001D /* MeineVorsorge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEADBEEF000000000000001F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEADBEEF000000000000008D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEADBEEF000000000000001E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEADBEEF000000000000004A /* MeineVorsorgeApp.swift in Sources */,
+				DEADBEEF000000000000004B /* ContentView.swift in Sources */,
+				DEADBEEF000000000000004C /* Models.swift in Sources */,
+				DEADBEEF000000000000004D /* APIService.swift in Sources */,
+				DEADBEEF000000000000004E /* AuthViewModel.swift in Sources */,
+				DEADBEEF000000000000004F /* WizardViewModel.swift in Sources */,
+				DEADBEEF000000000000005A /* WizardStepLogic.swift in Sources */,
+				DEADBEEF000000000000005B /* HomeView.swift in Sources */,
+				DEADBEEF000000000000005C /* LoginView.swift in Sources */,
+				DEADBEEF000000000000005D /* RegisterView.swift in Sources */,
+				DEADBEEF000000000000005E /* WizardContainerView.swift in Sources */,
+				DEADBEEF000000000000005F /* Step0DocumentsView.swift in Sources */,
+				DEADBEEF000000000000006A /* Step1PersonalView.swift in Sources */,
+				DEADBEEF000000000000006B /* Step2AddressView.swift in Sources */,
+				DEADBEEF000000000000006C /* Step3TrustedPersonView.swift in Sources */,
+				DEADBEEF000000000000006D /* Step4TrustedPersonAddressView.swift in Sources */,
+				DEADBEEF000000000000006E /* Step5Medical1View.swift in Sources */,
+				DEADBEEF000000000000006F /* Step6Medical2View.swift in Sources */,
+				DEADBEEF000000000000007A /* Step7ScenarioTerminalView.swift in Sources */,
+				DEADBEEF000000000000007B /* Step8ScenarioComaView.swift in Sources */,
+				DEADBEEF000000000000007C /* Step9ScenarioDementiaView.swift in Sources */,
+				DEADBEEF000000000000007D /* Step10ValuesView.swift in Sources */,
+				DEADBEEF000000000000007E /* Step11SummaryView.swift in Sources */,
+				DEADBEEF000000000000007F /* Step12AccountView.swift in Sources */,
+				DEADBEEF000000000000008A /* Step13DocumentsView.swift in Sources */,
+				DEADBEEF000000000000008B /* DashboardView.swift in Sources */,
+				DEADBEEF000000000000008C /* SharedComponents.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DEADBEEF000000000000002B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEADBEEF000000000000002C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEADBEEF000000000000002D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppTransportSecurity = "<dict><key>NSAllowsLocalNetworking</key><true/></dict>";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_CFBundleDisplayName = "Meine Vorsorge";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.meinevorsorge.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEADBEEF000000000000002E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppTransportSecurity = "<dict><key>NSAllowsLocalNetworking</key><true/></dict>";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_CFBundleDisplayName = "Meine Vorsorge";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.meinevorsorge.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEADBEEF000000000000002F /* Build configuration list for PBXProject "MeineVorsorge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEADBEEF000000000000002B /* Debug */,
+				DEADBEEF000000000000002C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEADBEEF000000000000003A /* Build configuration list for PBXNativeTarget "MeineVorsorge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEADBEEF000000000000002D /* Debug */,
+				DEADBEEF000000000000002E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = DEADBEEF000000000000001C /* Project object */;
+}
